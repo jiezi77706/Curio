@@ -34,8 +34,9 @@ class Settings:
         self.sync_interval_hours = int(os.getenv("SYNC_INTERVAL_HOURS", "2"))
         self.http_timeout_seconds = float(os.getenv("HTTP_TIMEOUT_SECONDS", "20"))
         self.eventbrite_token = os.getenv("EVENTBRITE_TOKEN", "").strip()
-        self.app_host = os.getenv("APP_HOST", "127.0.0.1")
-        self.app_port = int(os.getenv("APP_PORT", "8000"))
+        # Railway injects $PORT; fall back to APP_PORT for local dev
+        self.app_host = os.getenv("APP_HOST", "0.0.0.0")
+        self.app_port = int(os.getenv("PORT", os.getenv("APP_PORT", "8000")))
         self.user_agent = os.getenv("USER_AGENT", "ANUEventDatabaseAgent/0.1")
 
         raw_database_url = os.getenv("DATABASE_URL", "sqlite:///data/events.db")

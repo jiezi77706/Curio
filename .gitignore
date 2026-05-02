@@ -23,3 +23,7 @@ Thumbs.db
 
 # Screenshots from scraper
 *.png
+
+# Keep data/events.db in git so Railway has seed data on first deploy
+# To exclude it later: uncomment the line below
+# server-python/data/events.db
