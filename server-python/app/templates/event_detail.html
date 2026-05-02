@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ event.title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+</head>
+<body>
+  <main class="page-shell detail-shell">
+    <a class="secondary-button back-link" href="/">Back to Event List</a>
+
+    <section class="detail-card">
+      <p class="eyebrow">{{ event.source_name }}</p>
+      <h1>{{ event.title }}</h1>
+      <p class="hero-copy">{{ event.short_summary or event.description or "No summary available." }}</p>
+
+      <div class="detail-grid">
+        <div>
+          <h2>Schedule</h2>
+          <p><strong>Start:</strong> {{ event.start_datetime or "TBC" }}</p>
+          <p><strong>End:</strong> {{ event.end_datetime or "TBC" }}</p>
+          <p><strong>Timezone:</strong> {{ event.timezone }}</p>
+        </div>
+        <div>
+          <h2>Location</h2>
+          <p><strong>Venue:</strong> {{ event.venue_name or "TBC" }}</p>
+          <p><strong>Address:</strong> {{ event.venue_address or "TBC" }}</p>
+          <p><strong>Mode:</strong> {{ event.online_or_physical }}</p>
+        </div>
+        <div>
+          <h2>Metadata</h2>
+          <p><strong>Organizer:</strong> {{ event.organizer or "Unknown" }}</p>
+          <p><strong>Event Type:</strong> {{ event.event_type or "Unknown" }}</p>
+          <p><strong>Price:</strong> {{ event.price_type }}</p>
+          <p><strong>Status:</strong> {{ event.status }}</p>
+        </div>
+      </div>
+
+      <section class="detail-section">
+        <h2>Topics</h2>
+        <div class="topic-wrap">
+          {% for topic in event.topic_tags %}
+            <span class="topic-pill">{{ topic }}</span>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <h2>Description</h2>
+        <p>{{ event.description or event.raw_text or "No description available." }}</p>
+      </section>
+
+      <section class="detail-section">
+        <h2>Links</h2>
+        <p><strong>Source URL:</strong> <a href="{{ event.source_url }}" target="_blank" rel="noreferrer">{{ event.source_url }}</a></p>
+        <p><strong>Registration URL:</strong> <a href="{{ event.registration_url }}" target="_blank" rel="noreferrer">{{ event.registration_url }}</a></p>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

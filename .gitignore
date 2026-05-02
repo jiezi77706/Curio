@@ -1,0 +1,25 @@
+# Environment variables - NEVER commit
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots from scraper
+*.png

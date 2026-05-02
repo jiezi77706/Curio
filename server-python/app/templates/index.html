@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANU Event Database Agent</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">ANU Event Database Agent</p>
+        <h1>ANU Events Admin Viewer</h1>
+        <p class="hero-copy">
+          Local event database for downstream AI agents. This MVP includes public-source scraping plus a seeded catalog of 500+ Humanitix and Rubric style ANU events.
+        </p>
+      </div>
+      <div class="hero-actions">
+        <button id="sync-button" class="primary-button" type="button">Run Manual Sync</button>
+        <a class="secondary-button" href="/events/export" target="_blank" rel="noreferrer">Open JSON Export</a>
+      </div>
+    </section>
+
+    <section class="status-grid">
+      <article class="status-card">
+        <span class="status-label">Event Count</span>
+        <strong>{{ events|length }}</strong>
+      </article>
+      <article class="status-card">
+        <span class="status-label">Latest Sync</span>
+        {% if latest_sync %}
+          <strong>{{ latest_sync.status }}</strong>
+          <span>{{ latest_sync.finished_at or latest_sync.started_at }}</span>
+        {% else %}
+          <strong>Not run yet</strong>
+          <span>Trigger a manual sync to populate data.</span>
+        {% endif %}
+      </article>
+      <article class="status-card">
+        <span class="status-label">Update Schedule</span>
+        <strong>Every 2 hours</strong>
+        <span>APScheduler background sync</span>
+      </article>
+    </section>
+
+    <section class="filters-card">
+      <form class="filters-form" method="get" action="/">
+        <label>
+          Search
+          <input type="text" name="q" placeholder="AI, scholarship, networking..." value="{{ query }}">
+        </label>
+        <label>
+          Source
+          <select name="source">
+            <option value="">All sources</option>
+            {% for source in sources %}
+              <option value="{{ source }}" {% if selected_source == source %}selected{% endif %}>{{ source }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label>
+          Topic
+          <select name="topic">
+            <option value="">All topics</option>
+            {% for topic in topics %}
+              <option value="{{ topic }}" {% if selected_topic == topic %}selected{% endif %}>{{ topic }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <div class="filter-actions">
+          <button class="primary-button" type="submit">Apply Filters</button>
+          <a class="secondary-button" href="/">Reset</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="table-card">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Source</th>
+              <th>Topics</th>
+              <th>Start Time</th>
+              <th>Venue</th>
+              <th>Last Updated</th>
+              <th>Registration</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for event in events %}
+              <tr>
+                <td>
+                  <a class="event-link" href="/events/{{ event.id }}?view=html">{{ event.title }}</a>
+                  <div class="summary">{{ event.short_summary or event.description or "No summary available" }}</div>
+                </td>
+                <td>{{ event.source_name }}</td>
+                <td>
+                  <div class="topic-wrap">
+                    {% for topic in event.topic_tags %}
+                      <span class="topic-pill">{{ topic }}</span>
+                    {% endfor %}
+                  </div>
+                </td>
+                <td>{{ event.start_datetime or "TBC" }}</td>
+                <td>
+                  {{ event.venue_name or "TBC" }}
+                  {% if event.online_or_physical %}
+                    <div class="summary">{{ event.online_or_physical }}</div>
+                  {% endif %}
+                </td>
+                <td>{{ event.last_updated_at }}</td>
+                <td>
+                  {% if event.registration_url %}
+                    <a class="primary-button small-button" href="{{ event.registration_url }}" target="_blank" rel="noreferrer">Register</a>
+                  {% else %}
+                    <span class="muted">N/A</span>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <p id="sync-status" class="sync-message"></p>
+  </main>
+
+  <script>
+    const syncButton = document.getElementById("sync-button");
+    const syncStatus = document.getElementById("sync-status");
+
+    syncButton.addEventListener("click", async () => {
+      syncButton.disabled = true;
+      syncStatus.textContent = "Running sync...";
+
+      try {
+        const response = await fetch("/sync/run", { method: "POST" });
+        const payload = await response.json();
+        syncStatus.textContent = `Sync ${payload.status}. Found ${payload.events_found} events, created ${payload.events_created}, updated ${payload.events_updated}.`;
+        window.setTimeout(() => window.location.reload(), 1200);
+      } catch (error) {
+        syncStatus.textContent = "Manual sync failed. Check server logs for details.";
+      } finally {
+        syncButton.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
