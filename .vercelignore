@@ -1,0 +1,7 @@
+AI buildathon/
+server-python/
+server-nestjs/
+test_api.py
+test_recommend_direct.py
+*.pyc
+__pycache__/
