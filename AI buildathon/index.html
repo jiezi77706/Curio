@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANU Event Finder</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .tag-pill { transition: all 0.15s ease; }
+  .tag-pill.selected { background-color: #4f46e5; color: white; border-color: #4f46e5; }
+  .fade-in { animation: fadeIn 0.4s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .spinner { border: 3px solid #e5e7eb; border-top-color: #4f46e5; border-radius: 50%; width: 32px; height: 32px; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+<div class="max-w-3xl mx-auto px-6 py-10">
+
+  <header class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-900">ANU Event Finder</h1>
+    <p class="text-gray-600 mt-2">Events that fit your timetable and interests</p>
+  </header>
+
+  <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-4">
+    <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">Step 1 — Who are you?</h2>
+    <input id="nameInput" type="text" placeholder="e.g. Alex" value="Alex"
+           class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+  </section>
+
+  <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-4">
+    <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">Step 2 — Your course</h2>
+    <select id="courseSelect" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white">
+      <option>Bachelor of Computing</option>
+      <option>Bachelor of Science</option>
+      <option>Bachelor of Arts</option>
+      <option>Bachelor of Engineering</option>
+      <option>Bachelor of Commerce</option>
+    </select>
+  </section>
+
+  <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-4">
+    <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">Step 3 — Your interests</h2>
+    <p class="text-sm text-gray-500 mb-4">Tap to toggle. Pick at least 3.</p>
+    <div id="interestsContainer" class="flex flex-wrap gap-2"></div>
+  </section>
+
+  <section class="mb-8">
+    <button id="findBtn" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-6 rounded-xl shadow-sm transition">
+      Find events for me
+    </button>
+  </section>
+
+  <div id="loadingState" class="hidden text-center py-12">
+    <div class="spinner mx-auto mb-4"></div>
+    <p class="text-gray-600">Matching you with events…</p>
+    <p class="text-xs text-gray-400 mt-2">Scanning Rubric & Humanitix events</p>
+  </div>
+
+  <div id="resultsContainer"></div>
+
+</div>
+
+<script>
+
+// =============================================================================
+// DATA LOADING
+// =============================================================================
+
+let EVENTS_CACHE = null;
+let TIMETABLE_CACHE = null;
+
+async function loadEvents() {
+  if (EVENTS_CACHE) return EVENTS_CACHE;
+  const res = await fetch('./events_export.json');
+  const raw = await res.json();
+  // The real data wraps events in an object — unwrap it.
+  const rawEvents = raw.events || raw;
+  // Normalize each event into the shape the filter engine wants.
+  EVENTS_CACHE = rawEvents.map(normalizeEvent);
+  return EVENTS_CACHE;
+}
+
+async function loadTimetable() {
+  if (TIMETABLE_CACHE) return TIMETABLE_CACHE;
+  const res = await fetch('./timetable_sample.json');
+  TIMETABLE_CACHE = await res.json();
+  return TIMETABLE_CACHE;
+}
+
+// =============================================================================
+// SCHEMA ADAPTER — normalize raw events into a clean internal shape.
+// =============================================================================
+
+function normalizeTag(topic) {
+  // "Machine Learning" -> "machine-learning", "AI" -> "ai"
+  return topic.toLowerCase().trim().replace(/\s+/g, '-');
+}
+
+function normalizeEvent(raw) {
+  const source = (raw.source || 'unknown').toLowerCase();
+
+  const venue = raw.venue || {};
+  const locationName = venue.name || raw.location || 'TBA';
+  const locationAddress = venue.address || '';
+  const locationMode = venue.mode || 'physical';
+
+  const rawTopics = raw.topics || raw.tags || [];
+  const tags = rawTopics.map(normalizeTag);
+
+  const startTime = raw.start_datetime || raw.start_time;
+  const endTime = raw.end_datetime || raw.end_time;
+
+  const url = raw.registration_url || raw.source_url || raw.url || '#';
+
+  return {
+    id: raw.id,
+    source,
+    title: raw.title,
+    description: raw.description || raw.summary || '',
+    tags,
+    raw_topics: rawTopics,
+    start_time: startTime,
+    end_time: endTime,
+    timezone: raw.timezone || 'Australia/Sydney',
+    location: locationName,
+    location_address: locationAddress,
+    location_mode: locationMode,
+    organizer: raw.organizer || '',
+    url,
+    status: raw.status || 'active',
+  };
+}
+
+// =============================================================================
+// TIMETABLE / CLASH DETECTION
+// =============================================================================
+
+function getBusySlots(timetable, weekStartDate) {
+  const dayOffsets = { Monday: 0, Tuesday: 1, Wednesday: 2, Thursday: 3, Friday: 4, Saturday: 5, Sunday: 6 };
+  const slots = [];
+  for (const cls of timetable.classes) {
+    const offset = dayOffsets[cls.day];
+    if (offset === undefined) continue;
+    const [sh, sm] = cls.start_time.split(':').map(Number);
+    const [eh, em] = cls.end_time.split(':').map(Number);
+    const start = new Date(weekStartDate);
+    start.setDate(start.getDate() + offset);
+    start.setHours(sh, sm, 0, 0);
+    const end = new Date(start);
+    end.setHours(eh, em, 0, 0);
+    slots.push({ start, end, label: `${cls.code} ${cls.type}` });
+  }
+  return slots;
+}
+
+function eventClashesWithBusy(event, timetable) {
+  // Online events never clash — you can attend from your laptop.
+  if (event.location_mode === 'online' || event.location_mode === 'virtual') {
+    return false;
+  }
+  const eventStart = new Date(event.start_time);
+  const eventEnd = new Date(event.end_time);
+
+  const monday = new Date(eventStart);
+  const day = monday.getDay();
+  const diff = day === 0 ? -6 : 1 - day;
+  monday.setDate(monday.getDate() + diff);
+  monday.setHours(0, 0, 0, 0);
+
+  const slots = getBusySlots(timetable, monday);
+  for (const slot of slots) {
+    if (eventStart < slot.end && eventEnd > slot.start) return true;
+  }
+  return false;
+}
+
+function filterUpcoming(events, daysAhead = 60) {
+  const now = new Date();
+  const cutoff = new Date(now.getTime() + daysAhead * 24 * 60 * 60 * 1000);
+  return events.filter(e => {
+    if (e.status && e.status !== 'active') return false;
+    const start = new Date(e.start_time);
+    return start >= now && start <= cutoff;
+  });
+}
+
+// =============================================================================
+// MATCHING & RANKING ENGINE
+// =============================================================================
+
+const TAG_ADJACENCY = {
+  'ai': ['machine-learning', 'data-science', 'hackathon'],
+  'machine-learning': ['ai', 'data-science', 'research'],
+  'programming': ['ai', 'hackathon', 'machine-learning'],
+  'research': ['phd', 'academic-skills', 'seminar', 'laboratory'],
+  'phd': ['research', 'academic-skills', 'seminar'],
+  'career': ['networking', 'workshop', 'startup', 'entrepreneurship'],
+  'startup': ['entrepreneurship', 'career', 'networking', 'hackathon'],
+  'entrepreneurship': ['startup', 'career', 'networking'],
+  'wellbeing': ['study-support', 'academic-skills'],
+  'study-support': ['academic-skills', 'wellbeing', 'assignment'],
+  'academic-skills': ['study-support', 'research', 'assignment'],
+  'international-students': ['visa', 'accommodation', 'scholarship'],
+  'scholarship': ['international-students', 'visa', 'phd'],
+  'workshop': ['seminar', 'academic-skills'],
+  'laboratory': ['research', 'instrumentation'],
+};
+
+function scoreEvent(event, user) {
+  let score = 0;
+  const matchedTags = [];
+  const interestSet = new Set(user.interests);
+
+  for (const tag of event.tags) {
+    if (interestSet.has(tag)) {
+      score += 2;
+      matchedTags.push(tag);
+    }
+  }
+
+  for (const interest of user.interests) {
+    const adjacent = TAG_ADJACENCY[interest] || [];
+    for (const adj of adjacent) {
+      if (event.tags.includes(adj) && !matchedTags.includes(adj)) score += 1;
+    }
+  }
+
+  const lowerTitle = event.title.toLowerCase();
+  for (const interest of user.interests) {
+    const variants = [interest, interest.replace(/-/g, ' ')];
+    if (variants.some(v => lowerTitle.includes(v))) score += 1;
+  }
+
+  const lowerDesc = event.description.toLowerCase();
+  let descHits = 0;
+  for (const interest of user.interests) {
+    const variants = [interest, interest.replace(/-/g, ' ')];
+    if (variants.some(v => lowerDesc.includes(v))) descHits++;
+  }
+  score += Math.min(descHits, 3);
+
+  return { score, matchedTags };
+}
+
+function generateWhy(event, matchedTags, user) {
+  const niceTag = (t) => t.replace(/-/g, ' ');
+  const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+  if (matchedTags.length >= 3) {
+    return pick([
+      `Strong match — hits your interests in ${niceTag(matchedTags[0])}, ${niceTag(matchedTags[1])} and ${niceTag(matchedTags[2])}.`,
+      `Three-for-three: ${niceTag(matchedTags[0])}, ${niceTag(matchedTags[1])}, and ${niceTag(matchedTags[2])} all match your profile.`,
+      `Right in your wheelhouse — touches on ${niceTag(matchedTags[0])}, ${niceTag(matchedTags[1])}, and ${niceTag(matchedTags[2])}.`,
+      `Top pick: covers ${niceTag(matchedTags[0])}, ${niceTag(matchedTags[1])}, and ${niceTag(matchedTags[2])}.`,
+    ]);
+  }
+  if (matchedTags.length === 2) {
+    return pick([
+      `Matches your interests in ${niceTag(matchedTags[0])} and ${niceTag(matchedTags[1])}.`,
+      `You'll like this — it covers ${niceTag(matchedTags[0])} and ${niceTag(matchedTags[1])}.`,
+      `Great fit: combines ${niceTag(matchedTags[0])} with ${niceTag(matchedTags[1])}.`,
+      `On your radar because of ${niceTag(matchedTags[0])} and ${niceTag(matchedTags[1])}.`,
+    ]);
+  }
+  if (matchedTags.length === 1) {
+    return pick([
+      `Picked because you're into ${niceTag(matchedTags[0])}.`,
+      `Surfaced for your interest in ${niceTag(matchedTags[0])}.`,
+      `Tagged with ${niceTag(matchedTags[0])} — one of yours.`,
+      `Matches your ${niceTag(matchedTags[0])} interest.`,
+    ]);
+  }
+  const lowerTitle = event.title.toLowerCase();
+  const keywordHit = user.interests.find(i => lowerTitle.includes(i.replace(/-/g, ' ')) || lowerTitle.includes(i));
+  if (keywordHit) {
+    return pick([
+      `The title mentions ${niceTag(keywordHit)}, which you flagged.`,
+      `Picked up via keyword match on ${niceTag(keywordHit)}.`,
+      `Looks relevant to your interest in ${niceTag(keywordHit)}.`,
+    ]);
+  }
+  return `Recommended based on your profile.`;
+}
+
+async function getRecommendations(user) {
+  const allEvents = await loadEvents();
+  const timetable = await loadTimetable();
+
+  let candidates = filterUpcoming(allEvents, 60);
+  candidates = candidates.filter(e => !eventClashesWithBusy(e, timetable));
+
+  const scored = candidates.map(event => {
+    const { score, matchedTags } = scoreEvent(event, user);
+    return { event, score, matchedTags };
+  }).filter(x => x.score > 0);
+
+  scored.sort((a, b) => b.score - a.score);
+
+  let top5 = scored.slice(0, 5);
+  const sources = new Set(top5.map(x => x.event.source));
+  if (sources.size === 1 && scored.length > 5) {
+    const otherSource = top5[0].event.source === 'rubric' ? 'humanitix' : 'rubric';
+    const otherCandidate = scored.slice(5).find(x => x.event.source === otherSource);
+    if (otherCandidate) top5[4] = otherCandidate;
+  }
+
+  return top5.map(x => ({
+    ...x.event,
+    why: generateWhy(x.event, x.matchedTags, user),
+    _score: x.score,
+  }));
+}
+
+// =============================================================================
+// GOOGLE MAPS LINK GENERATION
+// =============================================================================
+
+function buildMapsLink(event) {
+  // Online events don't have a map link.
+  if (event.location_mode === 'online' || event.location_mode === 'virtual') return null;
+
+  // Best query: full address if available, else venue name + "ANU Canberra"
+  // for disambiguation since most ANU venue names also exist in other places.
+  let query;
+  if (event.location_address && event.location_address.trim()) {
+    query = `${event.location} ${event.location_address}`;
+  } else if (event.location && event.location !== 'TBA') {
+    query = `${event.location} ANU Canberra`;
+  } else {
+    return null;
+  }
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
+// =============================================================================
+// UI RENDERING
+// =============================================================================
+
+const INTEREST_TAGS = [
+  'ai', 'machine-learning', 'hackathon', 'research',
+  'career', 'startup', 'entrepreneurship', 'workshop',
+  'phd', 'academic-skills', 'study-support', 'wellbeing',
+  'international-students', 'scholarship', 'networking', 'seminar',
+];
+
+let selectedInterests = new Set(['ai', 'machine-learning', 'career']);
+
+function renderInterestTags() {
+  const container = document.getElementById('interestsContainer');
+  container.innerHTML = '';
+  INTEREST_TAGS.forEach(tag => {
+    const pill = document.createElement('button');
+    pill.className = `tag-pill px-4 py-2 rounded-full border border-gray-300 text-sm font-medium hover:border-indigo-400 ${selectedInterests.has(tag) ? 'selected' : 'bg-white text-gray-700'}`;
+    pill.textContent = tag.replace(/-/g, ' ');
+    pill.onclick = () => {
+      if (selectedInterests.has(tag)) selectedInterests.delete(tag);
+      else selectedInterests.add(tag);
+      renderInterestTags();
+    };
+    container.appendChild(pill);
+  });
+}
+
+function formatDateTime(isoString) {
+  const d = new Date(isoString);
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  let hour = d.getHours();
+  const minute = d.getMinutes().toString().padStart(2, '0');
+  const ampm = hour >= 12 ? 'pm' : 'am';
+  hour = hour % 12 || 12;
+  return `${days[d.getDay()]} ${d.getDate()} ${months[d.getMonth()]}, ${hour}${minute === '00' ? '' : ':' + minute}${ampm}`;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderEventCard(event) {
+  const sourceColor = event.source === 'rubric' ? 'bg-blue-100 text-blue-800' : 'bg-purple-100 text-purple-800';
+  const sourceName = event.source === 'rubric' ? 'Rubric' : 'Humanitix';
+
+  const mapsLink = buildMapsLink(event);
+  const mapsButton = mapsLink ? `
+    <a href="${mapsLink}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-medium text-emerald-700 hover:text-emerald-900 bg-emerald-50 hover:bg-emerald-100 px-3 py-1.5 rounded-lg transition">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+        <circle cx="12" cy="10" r="3"/>
+      </svg>
+      Open in Maps
+    </a>` : `
+    <span class="inline-flex items-center gap-1.5 text-sm text-gray-500 bg-gray-100 px-3 py-1.5 rounded-lg">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="14" rx="2"/>
+        <line x1="8" y1="21" x2="16" y2="21"/>
+        <line x1="12" y1="17" x2="12" y2="21"/>
+      </svg>
+      Online event
+    </span>`;
+
+  const topicChips = (event.raw_topics || event.tags).slice(0, 4)
+    .map(t => `<span class="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded">${escapeHtml(t)}</span>`)
+    .join('');
+
+  const addressLine = event.location_address
+    ? `<div class="text-xs text-gray-500 ml-5">${escapeHtml(event.location_address)}</div>` : '';
+
+  const organizerLine = event.organizer
+    ? `<div class="text-xs text-gray-500 mb-3">Hosted by ${escapeHtml(event.organizer)}</div>` : '';
+
+  return `
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-4 fade-in">
+      <div class="flex items-start justify-between mb-3">
+        <h3 class="text-lg font-semibold text-gray-900 flex-1 pr-3">${escapeHtml(event.title)}</h3>
+        <span class="text-xs font-medium px-2.5 py-1 rounded-full ${sourceColor} whitespace-nowrap">${sourceName}</span>
+      </div>
+      <div class="text-sm text-gray-600 mb-1">📅 ${formatDateTime(event.start_time)}</div>
+      <div class="text-sm text-gray-600 mb-1">📍 ${escapeHtml(event.location)}</div>
+      ${addressLine}
+      ${organizerLine}
+      <div class="flex flex-wrap gap-1.5 mb-3 mt-3">${topicChips}</div>
+      <div class="border-t border-gray-100 pt-3 mt-3">
+        <p class="text-sm italic text-indigo-700">💡 ${escapeHtml(event.why)}</p>
+      </div>
+      <div class="flex items-center gap-2 mt-4 flex-wrap">
+        ${mapsButton}
+        <a href="${event.url}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-700 hover:text-indigo-900 bg-indigo-50 hover:bg-indigo-100 px-3 py-1.5 rounded-lg transition">
+          Register
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7"/><path d="M7 7h10v10"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  `;
+}
+
+function renderResults(events) {
+  const container = document.getElementById('resultsContainer');
+  if (events.length === 0) {
+    container.innerHTML = `
+      <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
+        <p class="text-amber-900 font-medium">No matching events found.</p>
+        <p class="text-amber-700 text-sm mt-1">Try picking more interests, or different ones.</p>
+      </div>`;
+    return;
+  }
+  const heading = `<h2 class="text-xl font-bold text-gray-900 mb-4">Top ${events.length} events for you</h2>`;
+  container.innerHTML = heading + events.map(renderEventCard).join('');
+}
+
+// =============================================================================
+// GLUE
+// =============================================================================
+
+document.getElementById('findBtn').addEventListener('click', async () => {
+  const name = document.getElementById('nameInput').value.trim() || 'there';
+  const course = document.getElementById('courseSelect').value;
+  const interests = Array.from(selectedInterests);
+
+  if (interests.length === 0) {
+    alert('Pick at least one interest first!');
+    return;
+  }
+
+  document.getElementById('loadingState').classList.remove('hidden');
+  document.getElementById('resultsContainer').innerHTML = '';
+
+  try {
+    const [recommendations] = await Promise.all([
+      getRecommendations({ name, course, interests }),
+      new Promise(r => setTimeout(r, 600)),
+    ]);
+    document.getElementById('loadingState').classList.add('hidden');
+    renderResults(recommendations);
+    document.getElementById('resultsContainer').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } catch (err) {
+    console.error('Recommendation failed:', err);
+    document.getElementById('loadingState').classList.add('hidden');
+    document.getElementById('resultsContainer').innerHTML = `
+      <div class="bg-red-50 border border-red-200 rounded-xl p-6">
+        <p class="text-red-900 font-medium">Something went wrong.</p>
+        <p class="text-red-700 text-sm mt-1">Open DevTools console to see the error.</p>
+      </div>`;
+  }
+});
+
+renderInterestTags();
+console.log('ANU Event Finder loaded. Real data, with Google Maps links.');
+</script>
+
+</body>
+</html>

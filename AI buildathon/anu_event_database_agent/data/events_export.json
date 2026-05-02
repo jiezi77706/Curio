@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-02T07:43:52.840073+00:00",
-  "total_events": 566,
+  "generated_at": "2026-05-02T06:07:36.272541+00:00",
+  "total_events": 521,
   "events": [
     {
       "id": "8c4fc87a-aea1-4d35-a07d-4680bd0ce70a",
@@ -222,276 +222,6 @@
       }
     },
     {
-      "id": "625fbb25-a0e1-45ce-bc2f-40834e7bffee",
-      "title": "LANTERNS &amp; LINEAGES",
-      "summary": "An evening where artists share the stories that shaped them, from heritage and personal history to chosen family, identity, and the worlds that raised us",
-      "description": "An evening where artists share the stories that shaped them, from heritage and personal history to chosen family, identity, and the worlds that raised us",
-      "topics": [
-        "AI"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/lanterns-and-lineages",
-      "registration_url": "https://events.humanitix.com/lanterns-and-lineages",
-      "start_datetime": "2026-05-02T19:30:00+10:00",
-      "end_datetime": "2026-05-02T21:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Gang Gang Cafe and Bar",
-        "address": "Shop4/2 Frencham Pl, Downer ACT 2602, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "LANTERNS &amp; LINEAGES",
-        "description": "An evening where artists share the stories that shaped them, from heritage and personal history to chosen family, identity, and the worlds that raised us\n\nAn evening where artists share the stories that shaped them, from heritage and personal history to chosen family, identity, and the worlds that raised us\n\nhttps://events.humanitix.com/lanterns-and-lineages",
-        "location": "Gang Gang Cafe and Bar, Shop4/2 Frencham Pl, Downer ACT 2602, Australia",
-        "start": "2026-05-02T19:30:00+10:00",
-        "end": "2026-05-02T21:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/lanterns-and-lineages"
-      },
-      "notification_payload": {
-        "title": "LANTERNS &amp; LINEAGES",
-        "message": "LANTERNS &amp; LINEAGES is scheduled for Sat 02 May 2026 07:30 PM at Gang Gang Cafe and Bar.",
-        "priority": "high",
-        "suggested_reminders": [
-          "2_hours_before",
-          "30_minutes_before"
-        ]
-      }
-    },
-    {
-      "id": "1a3f5e55-78d1-44ca-8352-b37c84495e5e",
-      "title": "Milly McPherson",
-      "summary": "Get tickets on Humanitix - Milly McPherson hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 2nd May 2026. Find event information.",
-      "description": "Get tickets on Humanitix - Milly McPherson hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 2nd May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/milly-mcpherson",
-      "registration_url": "https://events.humanitix.com/milly-mcpherson",
-      "start_datetime": "2026-05-02T19:30:00+10:00",
-      "end_datetime": "2026-05-02T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Milly McPherson",
-        "description": "Get tickets on Humanitix - Milly McPherson hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 2nd May 2026. Find event information.\n\nGet tickets on Humanitix - Milly McPherson hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 2nd May 2026. Find event information.\n\nhttps://events.humanitix.com/milly-mcpherson",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-02T19:30:00+10:00",
-        "end": "2026-05-02T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/milly-mcpherson"
-      },
-      "notification_payload": {
-        "title": "Milly McPherson",
-        "message": "Milly McPherson is scheduled for Sat 02 May 2026 07:30 PM at Dissent Cafe and Bar.",
-        "priority": "high",
-        "suggested_reminders": [
-          "2_hours_before",
-          "30_minutes_before"
-        ]
-      }
-    },
-    {
-      "id": "2ef92d80-811b-4677-b965-539fc37a874f",
-      "title": "Tissages du Temps",
-      "summary": "Get Tickets on Humanitix - Tissages du Temps hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Saturday 2nd May 2026. Find event information.",
-      "description": "Get Tickets on Humanitix - Tissages du Temps hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Saturday 2nd May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/tissages-du-temps",
-      "registration_url": "https://events.humanitix.com/tissages-du-temps",
-      "start_datetime": "2026-05-02T19:30:00+10:00",
-      "end_datetime": "2026-05-02T21:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Snow Concert Hall",
-        "address": "40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Tissages du Temps",
-        "description": "Get Tickets on Humanitix - Tissages du Temps hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Saturday 2nd May 2026. Find event information.\n\nGet Tickets on Humanitix - Tissages du Temps hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Saturday 2nd May 2026. Find event information.\n\nhttps://events.humanitix.com/tissages-du-temps",
-        "location": "Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "start": "2026-05-02T19:30:00+10:00",
-        "end": "2026-05-02T21:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/tissages-du-temps"
-      },
-      "notification_payload": {
-        "title": "Tissages du Temps",
-        "message": "Tissages du Temps is scheduled for Sat 02 May 2026 07:30 PM at Snow Concert Hall.",
-        "priority": "high",
-        "suggested_reminders": [
-          "2_hours_before",
-          "30_minutes_before"
-        ]
-      }
-    },
-    {
-      "id": "be77282b-a0d2-4682-ba33-de927c108a18",
-      "title": "Bell Curve",
-      "summary": "Get Tickets on Humanitix - Bell Curve hosted by Canberra International Music Festival. Parliament House, Parliament Dr, Canberra ACT 2600, Australia. Sunday 3rd May 2026. Find event information.",
-      "description": "Get Tickets on Humanitix - Bell Curve hosted by Canberra International Music Festival. Parliament House, Parliament Dr, Canberra ACT 2600, Australia. Sunday 3rd May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/bell-curve",
-      "registration_url": "https://events.humanitix.com/bell-curve",
-      "start_datetime": "2026-05-03T11:00:00+10:00",
-      "end_datetime": "2026-05-03T11:55:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Parliament House",
-        "address": "Parliament Dr, Canberra ACT 2600, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Bell Curve",
-        "description": "Get Tickets on Humanitix - Bell Curve hosted by Canberra International Music Festival. Parliament House, Parliament Dr, Canberra ACT 2600, Australia. Sunday 3rd May 2026. Find event information.\n\nGet Tickets on Humanitix - Bell Curve hosted by Canberra International Music Festival. Parliament House, Parliament Dr, Canberra ACT 2600, Australia. Sunday 3rd May 2026. Find event information.\n\nhttps://events.humanitix.com/bell-curve",
-        "location": "Parliament House, Parliament Dr, Canberra ACT 2600, Australia",
-        "start": "2026-05-03T11:00:00+10:00",
-        "end": "2026-05-03T11:55:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/bell-curve"
-      },
-      "notification_payload": {
-        "title": "Bell Curve",
-        "message": "Bell Curve is scheduled for Sun 03 May 2026 11:00 AM at Parliament House.",
-        "priority": "high",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "ab253d90-a764-4304-a148-4b858e7af8b8",
-      "title": "Queer crafting @ Meridian",
-      "summary": "In-person session for LGBTQIA+ folk to come together and make stuff. Registration preferred.",
-      "description": "In-person session for LGBTQIA+ folk to come together and make stuff. Registration preferred.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/queer-crafting-the-toolbox",
-      "registration_url": "https://events.humanitix.com/queer-crafting-the-toolbox",
-      "start_datetime": "2026-05-03T14:00:00+10:00",
-      "end_datetime": "2026-05-03T16:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Meridian (enter from Gould Street)",
-        "address": "85 Northbourne Ave, Turner ACT 2612, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Queer crafting @ Meridian",
-        "description": "In-person session for LGBTQIA+ folk to come together and make stuff. Registration preferred.\n\nIn-person session for LGBTQIA+ folk to come together and make stuff. Registration preferred.\n\nhttps://events.humanitix.com/queer-crafting-the-toolbox",
-        "location": "Meridian (enter from Gould Street), 85 Northbourne Ave, Turner ACT 2612, Australia",
-        "start": "2026-05-03T14:00:00+10:00",
-        "end": "2026-05-03T16:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/queer-crafting-the-toolbox"
-      },
-      "notification_payload": {
-        "title": "Queer crafting @ Meridian",
-        "message": "Queer crafting @ Meridian is scheduled for Sun 03 May 2026 02:00 PM at Meridian (enter from Gould Street).",
-        "priority": "high",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "b2f1b723-c8d1-46e9-adf3-8b05d67a5fb7",
-      "title": "Tales of Fragile Sensations",
-      "summary": "Get Tickets on Humanitix - Tales of Fragile Sensations hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 3rd May 2026. Find event information.",
-      "description": "Get Tickets on Humanitix - Tales of Fragile Sensations hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 3rd May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/tales-of-fragile-sensations",
-      "registration_url": "https://events.humanitix.com/tales-of-fragile-sensations",
-      "start_datetime": "2026-05-03T14:00:00+10:00",
-      "end_datetime": "2026-05-03T15:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Snow Concert Hall",
-        "address": "40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Tales of Fragile Sensations",
-        "description": "Get Tickets on Humanitix - Tales of Fragile Sensations hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 3rd May 2026. Find event information.\n\nGet Tickets on Humanitix - Tales of Fragile Sensations hosted by Canberra International Music Festival. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 3rd May 2026. Find event information.\n\nhttps://events.humanitix.com/tales-of-fragile-sensations",
-        "location": "Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "start": "2026-05-03T14:00:00+10:00",
-        "end": "2026-05-03T15:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/tales-of-fragile-sensations"
-      },
-      "notification_payload": {
-        "title": "Tales of Fragile Sensations",
-        "message": "Tales of Fragile Sensations is scheduled for Sun 03 May 2026 02:00 PM at Snow Concert Hall.",
-        "priority": "high",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "4e0ed36c-ff38-4af0-bbf6-e7d269613b1d",
-      "title": "Autumn Leaves: A Big Band Affair",
-      "summary": "The Canberra Big Band Collective presents an evening of hot jazz for cool nights on Sunday 3 May 2026. Featuring In Full Swing &amp; TraXion Big Band.",
-      "description": "The Canberra Big Band Collective presents an evening of hot jazz for cool nights on Sunday 3 May 2026. Featuring In Full Swing &amp; TraXion Big Band.",
-      "topics": [
-        "AI"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/autumn-leaves-hot-jazz",
-      "registration_url": "https://events.humanitix.com/autumn-leaves-hot-jazz",
-      "start_datetime": "2026-05-03T16:00:00+10:00",
-      "end_datetime": "2026-05-03T18:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Belconnen Community Theatre",
-        "address": "Belconnen Community Theatre, 23 Swanson Ct, Belconnen ACT 2617, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Autumn Leaves: A Big Band Affair",
-        "description": "The Canberra Big Band Collective presents an evening of hot jazz for cool nights on Sunday 3 May 2026. Featuring In Full Swing &amp; TraXion Big Band.\n\nThe Canberra Big Band Collective presents an evening of hot jazz for cool nights on Sunday 3 May 2026. Featuring In Full Swing &amp; TraXion Big Band.\n\nhttps://events.humanitix.com/autumn-leaves-hot-jazz",
-        "location": "Belconnen Community Theatre, Belconnen Community Theatre, 23 Swanson Ct, Belconnen ACT 2617, Australia",
-        "start": "2026-05-03T16:00:00+10:00",
-        "end": "2026-05-03T18:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/autumn-leaves-hot-jazz"
-      },
-      "notification_payload": {
-        "title": "Autumn Leaves: A Big Band Affair",
-        "message": "Autumn Leaves: A Big Band Affair is scheduled for Sun 03 May 2026 04:00 PM at Belconnen Community Theatre.",
-        "priority": "high",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "977826fb-5f99-4cf3-a2ce-56f5453aa5d6",
       "title": "Instrumentation Lab Demo Series 107",
       "summary": "A hands-on demonstration of instrumentation workflows, lab practice, and research support. Hosted by ANU InnovationACT, this ANU-focused event covers instrumentation, laboratory, research. The session runs on M...",
@@ -703,82 +433,6 @@
         "title": "ML Career Workshop Series 422",
         "message": "ML Career Workshop Series 422 is scheduled for Mon 04 May 2026 11:00 AM at Zoom Webinar Room.",
         "priority": "high",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "cba4617d-3b66-432c-ae38-49716da5ccdc",
-      "title": "Dissent Open Mic",
-      "summary": "Get Tickets on Humanitix - Dissent Open Mic hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Dates from Monday 12th January 2026. Find event information.",
-      "description": "Get Tickets on Humanitix - Dissent Open Mic hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Dates from Monday 12th January 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/dissent-open-mic",
-      "registration_url": "https://events.humanitix.com/dissent-open-mic",
-      "start_datetime": "2026-05-04T19:00:00+10:00",
-      "end_datetime": "2026-05-04T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Dissent Open Mic",
-        "description": "Get Tickets on Humanitix - Dissent Open Mic hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Dates from Monday 12th January 2026. Find event information.\n\nGet Tickets on Humanitix - Dissent Open Mic hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Dates from Monday 12th January 2026. Find event information.\n\nhttps://events.humanitix.com/dissent-open-mic",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-04T19:00:00+10:00",
-        "end": "2026-05-04T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/dissent-open-mic"
-      },
-      "notification_payload": {
-        "title": "Dissent Open Mic",
-        "message": "Dissent Open Mic is scheduled for Mon 04 May 2026 07:00 PM at Dissent Cafe and Bar.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "1f8c52dd-8723-43e3-a10f-fcb2601dde76",
-      "title": "Trivia at the Lighthouse",
-      "summary": "Trivia at the Lighthouse",
-      "description": "Trivia at the Lighthouse",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/trivia-at-the-lighthouse2",
-      "registration_url": "https://events.humanitix.com/trivia-at-the-lighthouse2",
-      "start_datetime": "2026-05-05T19:00:00+10:00",
-      "end_datetime": "2026-05-05T21:30:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Lighthouse Pub",
-        "address": "Unit 6/80 Emu Bank, Belconnen ACT 2617, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Trivia at the Lighthouse",
-        "description": "Trivia at the Lighthouse\n\nTrivia at the Lighthouse\n\nhttps://events.humanitix.com/trivia-at-the-lighthouse2",
-        "location": "Lighthouse Pub, Unit 6/80 Emu Bank, Belconnen ACT 2617, Australia",
-        "start": "2026-05-05T19:00:00+10:00",
-        "end": "2026-05-05T21:30:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/trivia-at-the-lighthouse2"
-      },
-      "notification_payload": {
-        "title": "Trivia at the Lighthouse",
-        "message": "Trivia at the Lighthouse is scheduled for Tue 05 May 2026 07:00 PM at Lighthouse Pub.",
-        "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
           "2_hours_before"
@@ -1011,44 +665,6 @@
       }
     },
     {
-      "id": "dfcc7dc1-d3ec-42c3-a025-7512008e808e",
-      "title": "FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox",
-      "summary": "Get tickets on Humanitix - FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australi...",
-      "description": "Get tickets on Humanitix - FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 8th May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/friday-before-the-freeze-featuring-pilots-of-baalbek-slowbeard-and-the-strike-outs-inbox",
-      "registration_url": "https://events.humanitix.com/friday-before-the-freeze-featuring-pilots-of-baalbek-slowbeard-and-the-strike-outs-inbox",
-      "start_datetime": "2026-05-08T07:30:00+10:00",
-      "end_datetime": "2026-05-08T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox",
-        "description": "Get tickets on Humanitix - FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australi...\n\nGet tickets on Humanitix - FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 8th May 2026. Find event information.\n\nhttps://events.humanitix.com/friday-before-the-freeze-featuring-pilots-of-baalbek-slowbeard-and-the-strike-outs-inbox",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-08T07:30:00+10:00",
-        "end": "2026-05-08T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/friday-before-the-freeze-featuring-pilots-of-baalbek-slowbeard-and-the-strike-outs-inbox"
-      },
-      "notification_payload": {
-        "title": "FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox",
-        "message": "FRIDAY Before The FREEZE: Featuring Pilots of Baalbek, Slowbeard and The Strike Outs Inbox is scheduled for Fri 08 May 2026 07:30 AM at Dissent Cafe and Bar.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "a8b821a7-bece-46a7-bcad-d14fe105abac",
       "title": "Accommodation Info Session Series 109",
       "summary": "A support session covering ANU accommodation options, budgeting, and settling into Canberra. Hosted by ANU Academic Skills Team, this ANU-focused event covers accommodation, international students, wellbeing. T...",
@@ -1262,44 +878,6 @@
       "notification_payload": {
         "title": "Startup Founder Night Series 424",
         "message": "Startup Founder Night Series 424 is scheduled for Fri 08 May 2026 04:00 PM at ANU Online Student Hub.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "cc194a1c-0bca-41d6-82bd-e97efafbf6bc",
-      "title": "The Centenary Carillon Recital",
-      "summary": "RSVP on Humanitix - The Centenary Carillon Recital. National Carillon, Queen Elizabeth II Island, Parkes ACT 2600, Australia. Saturday 9th May 2026. Find event information.",
-      "description": "RSVP on Humanitix - The Centenary Carillon Recital. National Carillon, Queen Elizabeth II Island, Parkes ACT 2600, Australia. Saturday 9th May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/the-centenary-carillon-recital",
-      "registration_url": "https://events.humanitix.com/the-centenary-carillon-recital",
-      "start_datetime": "2026-05-09T17:00:00+10:00",
-      "end_datetime": "2026-05-09T18:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "National Carillon",
-        "address": "Queen Elizabeth II Island, Parkes ACT 2600, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "The Centenary Carillon Recital",
-        "description": "RSVP on Humanitix - The Centenary Carillon Recital. National Carillon, Queen Elizabeth II Island, Parkes ACT 2600, Australia. Saturday 9th May 2026. Find event information.\n\nRSVP on Humanitix - The Centenary Carillon Recital. National Carillon, Queen Elizabeth II Island, Parkes ACT 2600, Australia. Saturday 9th May 2026. Find event information.\n\nhttps://events.humanitix.com/the-centenary-carillon-recital",
-        "location": "National Carillon, Queen Elizabeth II Island, Parkes ACT 2600, Australia",
-        "start": "2026-05-09T17:00:00+10:00",
-        "end": "2026-05-09T18:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/the-centenary-carillon-recital"
-      },
-      "notification_payload": {
-        "title": "The Centenary Carillon Recital",
-        "message": "The Centenary Carillon Recital is scheduled for Sat 09 May 2026 05:00 PM at National Carillon.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -1963,160 +1541,6 @@
       }
     },
     {
-      "id": "92e91ec5-45d7-446e-adad-7b80a63f672e",
-      "title": "Bluebottle Kiss",
-      "summary": "Get tickets on Humanitix - Bluebottle Kiss hosted by Dirty Deeds Event Sound. Live At The Polo, 38 David St, Turner ACT 2612, Australia. Thursday 14th May 2026. Find event information.",
-      "description": "Get tickets on Humanitix - Bluebottle Kiss hosted by Dirty Deeds Event Sound. Live At The Polo, 38 David St, Turner ACT 2612, Australia. Thursday 14th May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/blue-bottle-kiss",
-      "registration_url": "https://events.humanitix.com/blue-bottle-kiss",
-      "start_datetime": "2026-05-14T19:30:00+10:00",
-      "end_datetime": "2026-05-14T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Live At The Polo",
-        "address": "38 David St, Turner ACT 2612, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Bluebottle Kiss",
-        "description": "Get tickets on Humanitix - Bluebottle Kiss hosted by Dirty Deeds Event Sound. Live At The Polo, 38 David St, Turner ACT 2612, Australia. Thursday 14th May 2026. Find event information.\n\nGet tickets on Humanitix - Bluebottle Kiss hosted by Dirty Deeds Event Sound. Live At The Polo, 38 David St, Turner ACT 2612, Australia. Thursday 14th May 2026. Find event information.\n\nhttps://events.humanitix.com/blue-bottle-kiss",
-        "location": "Live At The Polo, 38 David St, Turner ACT 2612, Australia",
-        "start": "2026-05-14T19:30:00+10:00",
-        "end": "2026-05-14T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/blue-bottle-kiss"
-      },
-      "notification_payload": {
-        "title": "Bluebottle Kiss",
-        "message": "Bluebottle Kiss is scheduled for Thu 14 May 2026 07:30 PM at Live At The Polo.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "721382ff-7945-4111-a8b5-1f5fb54640d4",
-      "title": "Essendon Airport",
-      "summary": "Get tickets on Humanitix - Essendon Airport hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 15th May 2026. Find event information.",
-      "description": "Get tickets on Humanitix - Essendon Airport hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 15th May 2026. Find event information.",
-      "topics": [
-        "AI"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/essendon-airport",
-      "registration_url": "https://events.humanitix.com/essendon-airport",
-      "start_datetime": "2026-05-15T19:30:00+10:00",
-      "end_datetime": "2026-05-15T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Essendon Airport",
-        "description": "Get tickets on Humanitix - Essendon Airport hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 15th May 2026. Find event information.\n\nGet tickets on Humanitix - Essendon Airport hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 15th May 2026. Find event information.\n\nhttps://events.humanitix.com/essendon-airport",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-15T19:30:00+10:00",
-        "end": "2026-05-15T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/essendon-airport"
-      },
-      "notification_payload": {
-        "title": "Essendon Airport",
-        "message": "Essendon Airport is scheduled for Fri 15 May 2026 07:30 PM at Dissent Cafe and Bar.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "4468ba57-0b44-45a9-946a-37f9c495526e",
-      "title": "Lost In The Jungle",
-      "summary": "Jungle is massive",
-      "description": "Jungle is massive",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/lost-in-the-jungle-epej5gt3",
-      "registration_url": "https://events.humanitix.com/lost-in-the-jungle-epej5gt3",
-      "start_datetime": "2026-05-15T22:00:00+10:00",
-      "end_datetime": "2026-05-16T03:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Shadows Nightclub",
-        "address": "21 E Row, Canberra ACT 2600, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Lost In The Jungle",
-        "description": "Jungle is massive\n\nJungle is massive\n\nhttps://events.humanitix.com/lost-in-the-jungle-epej5gt3",
-        "location": "Shadows Nightclub, 21 E Row, Canberra ACT 2600, Australia",
-        "start": "2026-05-15T22:00:00+10:00",
-        "end": "2026-05-16T03:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/lost-in-the-jungle-epej5gt3"
-      },
-      "notification_payload": {
-        "title": "Lost In The Jungle",
-        "message": "Lost In The Jungle is scheduled for Fri 15 May 2026 10:00 PM at Shadows Nightclub.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "d8ac411f-94dd-4d72-8fd2-bbf714d5ea87",
-      "title": "Come Write @ TAC",
-      "summary": "Come Write at Tuggeranong Arts Centre 2026",
-      "description": "Come Write at Tuggeranong Arts Centre 2026",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/come-write-tac-2026",
-      "registration_url": "https://events.humanitix.com/come-write-tac-2026",
-      "start_datetime": "2026-05-16T12:00:00+10:00",
-      "end_datetime": "2026-05-16T14:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Tuggeranong Arts Centre",
-        "address": "137 Reed St N, Greenway ACT 2901, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Come Write @ TAC",
-        "description": "Come Write at Tuggeranong Arts Centre 2026\n\nCome Write at Tuggeranong Arts Centre 2026\n\nhttps://events.humanitix.com/come-write-tac-2026",
-        "location": "Tuggeranong Arts Centre, 137 Reed St N, Greenway ACT 2901, Australia",
-        "start": "2026-05-16T12:00:00+10:00",
-        "end": "2026-05-16T14:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/come-write-tac-2026"
-      },
-      "notification_payload": {
-        "title": "Come Write @ TAC",
-        "message": "Come Write @ TAC is scheduled for Sat 16 May 2026 12:00 PM at Tuggeranong Arts Centre.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "a48d0d4a-6468-4361-90bf-3d6dc607f1bb",
       "title": "Assignment Survival Workshop Series 008",
       "summary": "A student support workshop focused on assignment planning, writing structure, and study systems. Hosted by ANU International Student Department, this ANU-focused event covers assignment, study support, academic...",
@@ -2333,44 +1757,6 @@
       "notification_payload": {
         "title": "PhD Research Seminar Series 323",
         "message": "PhD Research Seminar Series 323 is scheduled for Sat 16 May 2026 02:00 PM at Kambri Innovation Hub.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "bcf43544-565d-47f7-a0a3-e561093c394f",
-      "title": "binsad 'pearl' the Album Tour",
-      "summary": "Get tickets on Humanitix - binsad 'pearl' the Album Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 16th May 2026. Find event information.",
-      "description": "Get tickets on Humanitix - binsad 'pearl' the Album Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 16th May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/binsad-pearl-the-album-tour",
-      "registration_url": "https://events.humanitix.com/binsad-pearl-the-album-tour",
-      "start_datetime": "2026-05-16T19:30:00+10:00",
-      "end_datetime": "2026-05-16T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "binsad 'pearl' the Album Tour",
-        "description": "Get tickets on Humanitix - binsad 'pearl' the Album Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 16th May 2026. Find event information.\n\nGet tickets on Humanitix - binsad 'pearl' the Album Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 16th May 2026. Find event information.\n\nhttps://events.humanitix.com/binsad-pearl-the-album-tour",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-16T19:30:00+10:00",
-        "end": "2026-05-16T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/binsad-pearl-the-album-tour"
-      },
-      "notification_payload": {
-        "title": "binsad 'pearl' the Album Tour",
-        "message": "binsad 'pearl' the Album Tour is scheduled for Sat 16 May 2026 07:30 PM at Dissent Cafe and Bar.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -2601,46 +1987,6 @@
       }
     },
     {
-      "id": "3cba0fca-db35-48fa-9bbb-394181bda382",
-      "title": "CANBERRA 🦘 Business Networking @ Ovolo Nishi",
-      "summary": "🔥 Join our Business Community &amp; friends for our popular Business Networking Afternoon! 🔥",
-      "description": "🔥 Join our Business Community &amp; friends for our popular Business Networking Afternoon! 🔥",
-      "topics": [
-        "networking"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/canberra-business-networking-event",
-      "registration_url": "https://events.humanitix.com/canberra-business-networking-event",
-      "start_datetime": "2026-05-20T13:00:00+10:00",
-      "end_datetime": "2026-05-20T16:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "25 Edinburgh Ave",
-        "address": "25 Edinburgh Ave, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "CANBERRA 🦘 Business Networking @ Ovolo Nishi",
-        "description": "🔥 Join our Business Community &amp; friends for our popular Business Networking Afternoon! 🔥\n\n🔥 Join our Business Community &amp; friends for our popular Business Networking Afternoon! 🔥\n\nhttps://events.humanitix.com/canberra-business-networking-event",
-        "location": "25 Edinburgh Ave, 25 Edinburgh Ave, Canberra ACT 2601, Australia",
-        "start": "2026-05-20T13:00:00+10:00",
-        "end": "2026-05-20T16:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/canberra-business-networking-event"
-      },
-      "notification_payload": {
-        "title": "CANBERRA 🦘 Business Networking @ Ovolo Nishi",
-        "message": "CANBERRA 🦘 Business Networking @ Ovolo Nishi is scheduled for Wed 20 May 2026 01:00 PM at 25 Edinburgh Ave.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "69a06297-1e29-47b9-8daa-f48bef569fdc",
       "title": "AI Research Showcase Series 010",
       "summary": "A showcase of student and faculty projects spanning AI methods, research translation, and demos. Hosted by ANU Health, Safety and Wellbeing, this ANU-focused event covers AI, research, seminar. The session runs...",
@@ -2855,82 +2201,6 @@
       "notification_payload": {
         "title": "Wellbeing Reset Session Series 325",
         "message": "Wellbeing Reset Session Series 325 is scheduled for Wed 20 May 2026 06:00 PM at Research School Instrumentation Lab.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "1f943741-98e5-4eb5-aa11-9380442a3080",
-      "title": "Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life",
-      "summary": "Get tickets on Humanitix - Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life hosted by Queanbeyan-Palerang Libraries. Queanbeyan Library, 257 Crawford St, Queanbeyan NSW 2620, Australia....",
-      "description": "Get tickets on Humanitix - Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life hosted by Queanbeyan-Palerang Libraries. Queanbeyan Library, 257 Crawford St, Queanbeyan NSW 2620, Australia. Thursday 21st May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/sydney-writers-festival-live-and-local-online-bringing-the-past-to-life",
-      "registration_url": "https://events.humanitix.com/sydney-writers-festival-live-and-local-online-bringing-the-past-to-life",
-      "start_datetime": "2026-05-21T16:00:00+10:00",
-      "end_datetime": "2026-05-21T16:55:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Queanbeyan Library",
-        "address": "257 Crawford St, Queanbeyan NSW 2620, Australia",
-        "mode": "online"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life",
-        "description": "Get tickets on Humanitix - Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life hosted by Queanbeyan-Palerang Libraries. Queanbeyan Library, 257 Crawford St, Queanbeyan NSW 2620, Australia....\n\nGet tickets on Humanitix - Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life hosted by Queanbeyan-Palerang Libraries. Queanbeyan Library, 257 Crawford St, Queanbeyan NSW 2620, Australia. Thursday 21st May 2026. Find event information.\n\nhttps://events.humanitix.com/sydney-writers-festival-live-and-local-online-bringing-the-past-to-life",
-        "location": "Queanbeyan Library, 257 Crawford St, Queanbeyan NSW 2620, Australia",
-        "start": "2026-05-21T16:00:00+10:00",
-        "end": "2026-05-21T16:55:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/sydney-writers-festival-live-and-local-online-bringing-the-past-to-life"
-      },
-      "notification_payload": {
-        "title": "Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life",
-        "message": "Sydney Writers' Festival Live &amp; Local Livestream - Bringing the Past to Life is scheduled for Thu 21 May 2026 04:00 PM at Queanbeyan Library.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "af7ba9c7-5185-4ddc-9e9c-315c4c9da848",
-      "title": "BONE REAPER Obsessed With Death/Driven To Kill Tour- Canberra",
-      "summary": "Get tickets on Humanitix - BONE REAPER \"Obsessed With Death/Driven To Kill\" Tour- Canberra hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 21st May 2026....",
-      "description": "Get tickets on Humanitix - BONE REAPER \"Obsessed With Death/Driven To Kill\" Tour- Canberra hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 21st May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/bone-reaper-obsessed-with-death-driven-to-kill-tour-canberra",
-      "registration_url": "https://events.humanitix.com/bone-reaper-obsessed-with-death-driven-to-kill-tour-canberra",
-      "start_datetime": "2026-05-21T19:30:00+10:00",
-      "end_datetime": "2026-05-21T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "BONE REAPER Obsessed With Death/Driven To Kill Tour- Canberra",
-        "description": "Get tickets on Humanitix - BONE REAPER \"Obsessed With Death/Driven To Kill\" Tour- Canberra hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 21st May 2026....\n\nGet tickets on Humanitix - BONE REAPER \"Obsessed With Death/Driven To Kill\" Tour- Canberra hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 21st May 2026. Find event information.\n\nhttps://events.humanitix.com/bone-reaper-obsessed-with-death-driven-to-kill-tour-canberra",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-21T19:30:00+10:00",
-        "end": "2026-05-21T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/bone-reaper-obsessed-with-death-driven-to-kill-tour-canberra"
-      },
-      "notification_payload": {
-        "title": "BONE REAPER Obsessed With Death/Driven To Kill Tour- Canberra",
-        "message": "BONE REAPER Obsessed With Death/Driven To Kill Tour- Canberra is scheduled for Thu 21 May 2026 07:30 PM at Dissent Cafe and Bar.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -3158,120 +2428,6 @@
       }
     },
     {
-      "id": "1e01590e-cdcf-45c4-9cb2-6f670d2cf7a7",
-      "title": "Jenny Sawer Band",
-      "summary": "Get tickets on Humanitix - Jenny Sawer Band hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 22nd May 2026. Find event information.",
-      "description": "Get tickets on Humanitix - Jenny Sawer Band hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 22nd May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/jenny-sawer-band",
-      "registration_url": "https://events.humanitix.com/jenny-sawer-band",
-      "start_datetime": "2026-05-22T19:00:00+10:00",
-      "end_datetime": "2026-05-22T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Jenny Sawer Band",
-        "description": "Get tickets on Humanitix - Jenny Sawer Band hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 22nd May 2026. Find event information.\n\nGet tickets on Humanitix - Jenny Sawer Band hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 22nd May 2026. Find event information.\n\nhttps://events.humanitix.com/jenny-sawer-band",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-22T19:00:00+10:00",
-        "end": "2026-05-22T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/jenny-sawer-band"
-      },
-      "notification_payload": {
-        "title": "Jenny Sawer Band",
-        "message": "Jenny Sawer Band is scheduled for Fri 22 May 2026 07:00 PM at Dissent Cafe and Bar.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "a80c798f-feae-45b3-a0e4-824588d8e5a7",
-      "title": "Vision Pres. WHAT SO NOT + Anna Lunoe",
-      "summary": "Worldwide Electronic afficionado WHAT SO NOT touches down in Ngunnawal Country for a warehouse rave hosted by your favourite underground party crew, Vision ENT.",
-      "description": "Worldwide Electronic afficionado WHAT SO NOT touches down in Ngunnawal Country for a warehouse rave hosted by your favourite underground party crew, Vision ENT.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/vision-pres-what-so-not",
-      "registration_url": "https://events.humanitix.com/vision-pres-what-so-not",
-      "start_datetime": "2026-05-23T18:00:00+10:00",
-      "end_datetime": "2026-05-24T02:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "The Vault",
-        "address": "Dairy Rd, Fyshwick ACT 2609, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Vision Pres. WHAT SO NOT + Anna Lunoe",
-        "description": "Worldwide Electronic afficionado WHAT SO NOT touches down in Ngunnawal Country for a warehouse rave hosted by your favourite underground party crew, Vision ENT.\n\nWorldwide Electronic afficionado WHAT SO NOT touches down in Ngunnawal Country for a warehouse rave hosted by your favourite underground party crew, Vision ENT.\n\nhttps://events.humanitix.com/vision-pres-what-so-not",
-        "location": "The Vault, Dairy Rd, Fyshwick ACT 2609, Australia",
-        "start": "2026-05-23T18:00:00+10:00",
-        "end": "2026-05-24T02:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/vision-pres-what-so-not"
-      },
-      "notification_payload": {
-        "title": "Vision Pres. WHAT SO NOT + Anna Lunoe",
-        "message": "Vision Pres. WHAT SO NOT + Anna Lunoe is scheduled for Sat 23 May 2026 06:00 PM at The Vault.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "3274d59c-bcc3-4b3b-b8ab-98de66b75923",
-      "title": "Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro",
-      "summary": "The Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro!",
-      "description": "The Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro!",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/80s-vs-70s-glow-vs-fro",
-      "registration_url": "https://events.humanitix.com/80s-vs-70s-glow-vs-fro",
-      "start_datetime": "2026-05-23T19:00:00+10:00",
-      "end_datetime": "2026-05-23T22:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Olympus Room, Hellenic Club Woden",
-        "address": "1 Matilda St, Phillip ACT 2606, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro",
-        "description": "The Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro!\n\nThe Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro!\n\nhttps://events.humanitix.com/80s-vs-70s-glow-vs-fro",
-        "location": "Olympus Room, Hellenic Club Woden, 1 Matilda St, Phillip ACT 2606, Australia",
-        "start": "2026-05-23T19:00:00+10:00",
-        "end": "2026-05-23T22:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/80s-vs-70s-glow-vs-fro"
-      },
-      "notification_payload": {
-        "title": "Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro",
-        "message": "Never Ending 80s Presents: 80s vs 70s - Glow Vs Fro is scheduled for Sat 23 May 2026 07:00 PM at Olympus Room, Hellenic Club Woden.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "4dc2817c-c97f-4106-aba4-e12bc6da54fa",
       "title": "Instrumentation Lab Demo Series 117",
       "summary": "A hands-on demonstration of instrumentation workflows, lab practice, and research support. Hosted by ANU InnovationACT, this ANU-focused event covers instrumentation, laboratory, research. The session runs on S...",
@@ -3482,44 +2638,6 @@
       "notification_payload": {
         "title": "ML Career Workshop Series 432",
         "message": "ML Career Workshop Series 432 is scheduled for Sun 24 May 2026 11:00 AM at ANU Online Student Hub.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "beaa8a6c-684b-4d60-8f8e-ddc0ac7527cc",
-      "title": "Sex Mask",
-      "summary": "Freshly returned from a US tour and just announced for the Sleaford Mods tour, Sex Mask visit Gang Gang",
-      "description": "Freshly returned from a US tour and just announced for the Sleaford Mods tour, Sex Mask visit Gang Gang",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/sex-mask-jrb3w9e3",
-      "registration_url": "https://events.humanitix.com/sex-mask-jrb3w9e3",
-      "start_datetime": "2026-05-24T18:00:00+10:00",
-      "end_datetime": "2026-05-24T22:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Gang Gang Cafe",
-        "address": "Frencham Pl, Downer ACT 2602, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Sex Mask",
-        "description": "Freshly returned from a US tour and just announced for the Sleaford Mods tour, Sex Mask visit Gang Gang\n\nFreshly returned from a US tour and just announced for the Sleaford Mods tour, Sex Mask visit Gang Gang\n\nhttps://events.humanitix.com/sex-mask-jrb3w9e3",
-        "location": "Gang Gang Cafe, Frencham Pl, Downer ACT 2602, Australia",
-        "start": "2026-05-24T18:00:00+10:00",
-        "end": "2026-05-24T22:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/sex-mask-jrb3w9e3"
-      },
-      "notification_payload": {
-        "title": "Sex Mask",
-        "message": "Sex Mask is scheduled for Sun 24 May 2026 06:00 PM at Gang Gang Cafe.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -3969,82 +3087,6 @@
       }
     },
     {
-      "id": "11440067-490e-44ba-81e0-f1bc62a7c278",
-      "title": "Cold Irons Bound",
-      "summary": "Get tickets on Humanitix - Cold Irons Bound hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 28th May 2026. Find event information.",
-      "description": "Get tickets on Humanitix - Cold Irons Bound hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 28th May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/cold-irons-bound",
-      "registration_url": "https://events.humanitix.com/cold-irons-bound",
-      "start_datetime": "2026-05-28T19:00:00+10:00",
-      "end_datetime": "2026-05-28T22:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Cold Irons Bound",
-        "description": "Get tickets on Humanitix - Cold Irons Bound hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 28th May 2026. Find event information.\n\nGet tickets on Humanitix - Cold Irons Bound hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Thursday 28th May 2026. Find event information.\n\nhttps://events.humanitix.com/cold-irons-bound",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-28T19:00:00+10:00",
-        "end": "2026-05-28T22:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/cold-irons-bound"
-      },
-      "notification_payload": {
-        "title": "Cold Irons Bound",
-        "message": "Cold Irons Bound is scheduled for Thu 28 May 2026 07:00 PM at Dissent Cafe and Bar.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "6785390f-d9a0-4efe-9c66-da202dd15a34",
-      "title": "Opera Gala",
-      "summary": "Buy Tickets on Humanitix - Opera Gala hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Friday 29th May 2026. Find event information.",
-      "description": "Buy Tickets on Humanitix - Opera Gala hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Friday 29th May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/opera-gala",
-      "registration_url": "https://events.humanitix.com/opera-gala",
-      "start_datetime": "2026-05-29T19:00:00+10:00",
-      "end_datetime": "2026-05-29T21:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Snow Concert Hall",
-        "address": "40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Opera Gala",
-        "description": "Buy Tickets on Humanitix - Opera Gala hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Friday 29th May 2026. Find event information.\n\nBuy Tickets on Humanitix - Opera Gala hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Friday 29th May 2026. Find event information.\n\nhttps://events.humanitix.com/opera-gala",
-        "location": "Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "start": "2026-05-29T19:00:00+10:00",
-        "end": "2026-05-29T21:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/opera-gala"
-      },
-      "notification_payload": {
-        "title": "Opera Gala",
-        "message": "Opera Gala is scheduled for Fri 29 May 2026 07:00 PM at Snow Concert Hall.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "23c29749-d7a6-4a7d-885e-ad95aa89e28f",
       "title": "AI Research Showcase Series 120",
       "summary": "A showcase of student and faculty projects spanning AI methods, research translation, and demos. Hosted by ANU Health, Safety and Wellbeing, this ANU-focused event covers AI, research, seminar. The session runs...",
@@ -4257,84 +3299,6 @@
       "notification_payload": {
         "title": "Wellbeing Reset Session Series 435",
         "message": "Wellbeing Reset Session Series 435 is scheduled for Sat 30 May 2026 06:00 PM at Kambri Innovation Hub.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "a3435033-ab10-4d69-bae5-9eb538a95b2a",
-      "title": "Motown, Stax &amp; Philly Sound bike party",
-      "summary": "Celebrating music from the Motown and Stax labels, and the Philly Sound.",
-      "description": "Celebrating music from the Motown and Stax labels, and the Philly Sound.",
-      "topics": [
-        "laboratory"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/motown-bike-party",
-      "registration_url": "https://events.humanitix.com/motown-bike-party",
-      "start_datetime": "2026-05-30T19:00:00+10:00",
-      "end_datetime": "2026-05-30T21:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "The Street Theatre",
-        "address": "The Street Theatre, 15 Childers St, Canberra ACT 2601, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Motown, Stax &amp; Philly Sound bike party",
-        "description": "Celebrating music from the Motown and Stax labels, and the Philly Sound.\n\nCelebrating music from the Motown and Stax labels, and the Philly Sound.\n\nhttps://events.humanitix.com/motown-bike-party",
-        "location": "The Street Theatre, The Street Theatre, 15 Childers St, Canberra ACT 2601, Australia",
-        "start": "2026-05-30T19:00:00+10:00",
-        "end": "2026-05-30T21:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/motown-bike-party"
-      },
-      "notification_payload": {
-        "title": "Motown, Stax &amp; Philly Sound bike party",
-        "message": "Motown, Stax &amp; Philly Sound bike party is scheduled for Sat 30 May 2026 07:00 PM at The Street Theatre.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "0e5f1315-6aab-49a6-938d-e3b6fa188de6",
-      "title": "ROCK n ROLL NEVER DIES!",
-      "summary": "Get tickets on Humanitix - ROCK n ROLL NEVER DIES! hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 30th May 2026. Find event information.",
-      "description": "Get tickets on Humanitix - ROCK n ROLL NEVER DIES! hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 30th May 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/rock-n-roll-never-dies",
-      "registration_url": "https://events.humanitix.com/rock-n-roll-never-dies",
-      "start_datetime": "2026-05-30T19:30:00+10:00",
-      "end_datetime": "2026-05-30T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "ROCK n ROLL NEVER DIES!",
-        "description": "Get tickets on Humanitix - ROCK n ROLL NEVER DIES! hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 30th May 2026. Find event information.\n\nGet tickets on Humanitix - ROCK n ROLL NEVER DIES! hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 30th May 2026. Find event information.\n\nhttps://events.humanitix.com/rock-n-roll-never-dies",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-05-30T19:30:00+10:00",
-        "end": "2026-05-30T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/rock-n-roll-never-dies"
-      },
-      "notification_payload": {
-        "title": "ROCK n ROLL NEVER DIES!",
-        "message": "ROCK n ROLL NEVER DIES! is scheduled for Sat 30 May 2026 07:30 PM at Dissent Cafe and Bar.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -5448,46 +4412,6 @@
       }
     },
     {
-      "id": "10998d1e-a574-4d39-b102-93a071e629f9",
-      "title": "Mistletone presents The Bats (NZ) w/ Tee Vee Repairmann + dogworld",
-      "summary": "Flying Nun Records legends The Bats (NZ) are playing their first ever Canberra show, 40-something years in the making! With Tee Vee Repairmann and dogworld.",
-      "description": "Flying Nun Records legends The Bats (NZ) are playing their first ever Canberra show, 40-something years in the making! With Tee Vee Repairmann and dogworld.",
-      "topics": [
-        "AI"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/the-bats-canberra-june-9",
-      "registration_url": "https://events.humanitix.com/the-bats-canberra-june-9",
-      "start_datetime": "2026-06-09T19:00:00+10:00",
-      "end_datetime": "2026-06-09T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Live At The Polo",
-        "address": "38 David St, Turner ACT 2612, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Mistletone presents The Bats (NZ) w/ Tee Vee Repairmann + dogworld",
-        "description": "Flying Nun Records legends The Bats (NZ) are playing their first ever Canberra show, 40-something years in the making! With Tee Vee Repairmann and dogworld.\n\nFlying Nun Records legends The Bats (NZ) are playing their first ever Canberra show, 40-something years in the making! With Tee Vee Repairmann and dogworld.\n\nhttps://events.humanitix.com/the-bats-canberra-june-9",
-        "location": "Live At The Polo, 38 David St, Turner ACT 2612, Australia",
-        "start": "2026-06-09T19:00:00+10:00",
-        "end": "2026-06-09T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/the-bats-canberra-june-9"
-      },
-      "notification_payload": {
-        "title": "Mistletone presents The Bats (NZ) w/ Tee Vee Repairmann + dogworld",
-        "message": "Mistletone presents The Bats (NZ) w/ Tee Vee Repairmann + dogworld is scheduled for Tue 09 Jun 2026 07:00 PM at Live At The Polo.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "e8f7c47d-b39b-4945-aeb1-5a49611cf94f",
       "title": "AI Buildathon Series 021",
       "summary": "A high-energy build session for ANU students exploring applied AI products. Hosted by ANU AI Society, this ANU-focused event covers AI, hackathon, machine learning. The session runs on Thursday 11 June 2026 at ...",
@@ -5915,84 +4839,6 @@
       "notification_payload": {
         "title": "ML Career Workshop Series 442",
         "message": "ML Career Workshop Series 442 is scheduled for Sat 13 Jun 2026 11:00 AM at Hedley Bull Theatre.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "fb3ceed3-371e-46b5-b785-3fde5bcce25a",
-      "title": "National Library Wander - National Library of Australia",
-      "summary": "A slow-paced wander through the National Library of Australia in a quiet, relaxed format. You're welcome to browse quietly, chat, or just be nearby.",
-      "description": "A slow-paced wander through the National Library of Australia in a quiet, relaxed format. You're welcome to browse quietly, chat, or just be nearby.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/sideways-social-library-june",
-      "registration_url": "https://events.humanitix.com/sideways-social-library-june",
-      "start_datetime": "2026-06-13T11:00:00+10:00",
-      "end_datetime": "2026-06-13T12:30:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "National Library of Australia",
-        "address": "Parkes Pl W, Canberra ACT 2600, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "National Library Wander - National Library of Australia",
-        "description": "A slow-paced wander through the National Library of Australia in a quiet, relaxed format. You're welcome to browse quietly, chat, or just be nearby.\n\nA slow-paced wander through the National Library of Australia in a quiet, relaxed format. You're welcome to browse quietly, chat, or just be nearby.\n\nhttps://events.humanitix.com/sideways-social-library-june",
-        "location": "National Library of Australia, Parkes Pl W, Canberra ACT 2600, Australia",
-        "start": "2026-06-13T11:00:00+10:00",
-        "end": "2026-06-13T12:30:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/sideways-social-library-june"
-      },
-      "notification_payload": {
-        "title": "National Library Wander - National Library of Australia",
-        "message": "National Library Wander - National Library of Australia is scheduled for Sat 13 Jun 2026 11:00 AM at National Library of Australia.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "11ac40aa-c96c-4fff-87b7-dd8ae740ae8c",
-      "title": "Hot Glue - 'Again, Again' Album Launch",
-      "summary": "Get tickets on Humanitix - Hot Glue - 'Again, Again' Album Launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 13th June 2026. Find event information.",
-      "description": "Get tickets on Humanitix - Hot Glue - 'Again, Again' Album Launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 13th June 2026. Find event information.",
-      "topics": [
-        "AI"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/hot-glue-again-again-album-launch",
-      "registration_url": "https://events.humanitix.com/hot-glue-again-again-album-launch",
-      "start_datetime": "2026-06-13T19:30:00+10:00",
-      "end_datetime": "2026-06-13T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Hot Glue - 'Again, Again' Album Launch",
-        "description": "Get tickets on Humanitix - Hot Glue - 'Again, Again' Album Launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 13th June 2026. Find event information.\n\nGet tickets on Humanitix - Hot Glue - 'Again, Again' Album Launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 13th June 2026. Find event information.\n\nhttps://events.humanitix.com/hot-glue-again-again-album-launch",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-06-13T19:30:00+10:00",
-        "end": "2026-06-13T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/hot-glue-again-again-album-launch"
-      },
-      "notification_payload": {
-        "title": "Hot Glue - 'Again, Again' Album Launch",
-        "message": "Hot Glue - 'Again, Again' Album Launch is scheduled for Sat 13 Jun 2026 07:30 PM at Dissent Cafe and Bar.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -6663,44 +5509,6 @@
       }
     },
     {
-      "id": "b71f27d6-929e-437a-bf53-106be61cbacd",
-      "title": "BMANZ &amp; Friends Tour",
-      "summary": "Get tickets on Humanitix - BMANZ &amp; Friends Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 20th June 2026. Find event information.",
-      "description": "Get tickets on Humanitix - BMANZ &amp; Friends Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 20th June 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/bmanz-and-friends-tour-pjc7kdc6",
-      "registration_url": "https://events.humanitix.com/bmanz-and-friends-tour-pjc7kdc6",
-      "start_datetime": "2026-06-20T19:30:00+10:00",
-      "end_datetime": "2026-06-20T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "BMANZ &amp; Friends Tour",
-        "description": "Get tickets on Humanitix - BMANZ &amp; Friends Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 20th June 2026. Find event information.\n\nGet tickets on Humanitix - BMANZ &amp; Friends Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Saturday 20th June 2026. Find event information.\n\nhttps://events.humanitix.com/bmanz-and-friends-tour-pjc7kdc6",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-06-20T19:30:00+10:00",
-        "end": "2026-06-20T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/bmanz-and-friends-tour-pjc7kdc6"
-      },
-      "notification_payload": {
-        "title": "BMANZ &amp; Friends Tour",
-        "message": "BMANZ &amp; Friends Tour is scheduled for Sat 20 Jun 2026 07:30 PM at Dissent Cafe and Bar.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "4fc222ee-aff0-4c4a-a208-ffbd81d12602",
       "title": "AI Buildathon Series 131",
       "summary": "A high-energy build session for ANU students exploring applied AI products. Hosted by ANU AI Society, this ANU-focused event covers AI, hackathon, machine learning. The session runs on Sunday 21 June 2026 at 09...",
@@ -6912,44 +5720,6 @@
       "notification_payload": {
         "title": "Scholarship and Visa Q&A Series 446",
         "message": "Scholarship and Visa Q&A Series 446 is scheduled for Sun 21 Jun 2026 09:00 AM at Zoom Webinar Room.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "35deb826-7503-4092-9f8c-c2c2ed9d4071",
-      "title": "Hana Stretton",
-      "summary": "Hana Stretton plays Gang Gang as part of her debut album tour",
-      "description": "Hana Stretton plays Gang Gang as part of her debut album tour",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/hana-stretton-3rll6r2c",
-      "registration_url": "https://events.humanitix.com/hana-stretton-3rll6r2c",
-      "start_datetime": "2026-06-21T18:00:00+10:00",
-      "end_datetime": "2026-06-21T22:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Gang Gang Cafe",
-        "address": "4/2 Frencham Pl, Downer ACT 2602, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Hana Stretton",
-        "description": "Hana Stretton plays Gang Gang as part of her debut album tour\n\nHana Stretton plays Gang Gang as part of her debut album tour\n\nhttps://events.humanitix.com/hana-stretton-3rll6r2c",
-        "location": "Gang Gang Cafe, 4/2 Frencham Pl, Downer ACT 2602, Australia",
-        "start": "2026-06-21T18:00:00+10:00",
-        "end": "2026-06-21T22:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/hana-stretton-3rll6r2c"
-      },
-      "notification_payload": {
-        "title": "Hana Stretton",
-        "message": "Hana Stretton is scheduled for Sun 21 Jun 2026 06:00 PM at Gang Gang Cafe.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -7624,44 +6394,6 @@
       }
     },
     {
-      "id": "79b85c7d-9900-4e5d-8663-4d98c24ef2b3",
-      "title": "27 Club Bike Party",
-      "summary": "Another handcrafted tour from Canberra by Bike",
-      "description": "Another handcrafted tour from Canberra by Bike",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/27-club-bike-party",
-      "registration_url": "https://events.humanitix.com/27-club-bike-party",
-      "start_datetime": "2026-06-27T19:00:00+10:00",
-      "end_datetime": "2026-06-27T21:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "The Street Theatre",
-        "address": "The Street Theatre, 15 Childers St, Canberra ACT 2601, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "27 Club Bike Party",
-        "description": "Another handcrafted tour from Canberra by Bike\n\nAnother handcrafted tour from Canberra by Bike\n\nhttps://events.humanitix.com/27-club-bike-party",
-        "location": "The Street Theatre, The Street Theatre, 15 Childers St, Canberra ACT 2601, Australia",
-        "start": "2026-06-27T19:00:00+10:00",
-        "end": "2026-06-27T21:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/27-club-bike-party"
-      },
-      "notification_payload": {
-        "title": "27 Club Bike Party",
-        "message": "27 Club Bike Party is scheduled for Sat 27 Jun 2026 07:00 PM at The Street Theatre.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "81c35a5d-6564-4b25-877c-c5a0258564ee",
       "title": "AI Research Showcase Series 030",
       "summary": "A showcase of student and faculty projects spanning AI methods, research translation, and demos. Hosted by ANU Health, Safety and Wellbeing, this ANU-focused event covers AI, research, seminar. The session runs...",
@@ -8097,44 +6829,6 @@
       }
     },
     {
-      "id": "ee963dab-28b9-4737-aa03-e77ae0d57809",
-      "title": "COUNTRY LOVE: THE ULTIMATE DATE NIGHT",
-      "summary": "Australia’s Favorite Country Music Couples Return in 2026 for A Night of Heart, Harmony, and Unscripted Fun!",
-      "description": "Australia’s Favorite Country Music Couples Return in 2026 for A Night of Heart, Harmony, and Unscripted Fun!",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/country-love-the-ultimate-date-night",
-      "registration_url": "https://events.humanitix.com/country-love-the-ultimate-date-night",
-      "start_datetime": "2026-07-02T18:30:00+10:00",
-      "end_datetime": "2026-07-02T22:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "49 Jerrabomberra Ave",
-        "address": "49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "COUNTRY LOVE: THE ULTIMATE DATE NIGHT",
-        "description": "Australia’s Favorite Country Music Couples Return in 2026 for A Night of Heart, Harmony, and Unscripted Fun!\n\nAustralia’s Favorite Country Music Couples Return in 2026 for A Night of Heart, Harmony, and Unscripted Fun!\n\nhttps://events.humanitix.com/country-love-the-ultimate-date-night",
-        "location": "49 Jerrabomberra Ave, 49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia",
-        "start": "2026-07-02T18:30:00+10:00",
-        "end": "2026-07-02T22:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/country-love-the-ultimate-date-night"
-      },
-      "notification_payload": {
-        "title": "COUNTRY LOVE: THE ULTIMATE DATE NIGHT",
-        "message": "COUNTRY LOVE: THE ULTIMATE DATE NIGHT is scheduled for Thu 02 Jul 2026 06:30 PM at 49 Jerrabomberra Ave.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "cf6e34bc-6cdb-49cc-84c0-5a1ded8b4b2e",
       "title": "Instrumentation Lab Demo Series 137",
       "summary": "A hands-on demonstration of instrumentation workflows, lab practice, and research support. Hosted by ANU InnovationACT, this ANU-focused event covers instrumentation, laboratory, research. The session runs on F...",
@@ -8345,44 +7039,6 @@
       "notification_payload": {
         "title": "ML Career Workshop Series 452",
         "message": "ML Career Workshop Series 452 is scheduled for Fri 03 Jul 2026 11:00 AM at Hancock Library Seminar Room.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "ed38cad6-a06c-4793-a880-20fa1f7ae0c0",
-      "title": "Vi-Nil Records Compilation album launch",
-      "summary": "Get tickets on Humanitix - Vi-Nil Records Compilation album launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 3rd July 2026. Find event information.",
-      "description": "Get tickets on Humanitix - Vi-Nil Records Compilation album launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 3rd July 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/vi-nil-records-compilation-album-launch",
-      "registration_url": "https://events.humanitix.com/vi-nil-records-compilation-album-launch",
-      "start_datetime": "2026-07-03T19:30:00+10:00",
-      "end_datetime": "2026-07-03T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Vi-Nil Records Compilation album launch",
-        "description": "Get tickets on Humanitix - Vi-Nil Records Compilation album launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 3rd July 2026. Find event information.\n\nGet tickets on Humanitix - Vi-Nil Records Compilation album launch hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 3rd July 2026. Find event information.\n\nhttps://events.humanitix.com/vi-nil-records-compilation-album-launch",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-07-03T19:30:00+10:00",
-        "end": "2026-07-03T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/vi-nil-records-compilation-album-launch"
-      },
-      "notification_payload": {
-        "title": "Vi-Nil Records Compilation album launch",
-        "message": "Vi-Nil Records Compilation album launch is scheduled for Fri 03 Jul 2026 07:30 PM at Dissent Cafe and Bar.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -9937,44 +8593,6 @@
       }
     },
     {
-      "id": "27060012-0f4e-4bfd-bf04-62bdf70d2a89",
-      "title": "CHAOS VINYL All In EP Tour",
-      "summary": "Get tickets on Humanitix - CHAOS VINYL All In EP Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 17th July 2026. Find event information.",
-      "description": "Get tickets on Humanitix - CHAOS VINYL All In EP Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 17th July 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/chaos-vinyl-all-in-ep-tour",
-      "registration_url": "https://events.humanitix.com/chaos-vinyl-all-in-ep-tour",
-      "start_datetime": "2026-07-17T19:30:00+10:00",
-      "end_datetime": "2026-07-17T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Dissent Cafe and Bar",
-        "address": "181 City Walk, Canberra ACT 2601, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "CHAOS VINYL All In EP Tour",
-        "description": "Get tickets on Humanitix - CHAOS VINYL All In EP Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 17th July 2026. Find event information.\n\nGet tickets on Humanitix - CHAOS VINYL All In EP Tour hosted by Dirty Deeds Event Sound. Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia. Friday 17th July 2026. Find event information.\n\nhttps://events.humanitix.com/chaos-vinyl-all-in-ep-tour",
-        "location": "Dissent Cafe and Bar, 181 City Walk, Canberra ACT 2601, Australia",
-        "start": "2026-07-17T19:30:00+10:00",
-        "end": "2026-07-17T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/chaos-vinyl-all-in-ep-tour"
-      },
-      "notification_payload": {
-        "title": "CHAOS VINYL All In EP Tour",
-        "message": "CHAOS VINYL All In EP Tour is scheduled for Fri 17 Jul 2026 07:30 PM at Dissent Cafe and Bar.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "7fc3c136-4487-4b3b-bcd1-6e5d8f3df1a1",
       "title": "AI Research Showcase Series 040",
       "summary": "A showcase of student and faculty projects spanning AI methods, research translation, and demos. Hosted by ANU Health, Safety and Wellbeing, this ANU-focused event covers AI, research, seminar. The session runs...",
@@ -11300,46 +9918,6 @@
       }
     },
     {
-      "id": "f92869fd-9d27-4f94-a1fc-2a0bfe7cbbd0",
-      "title": "She Leads 2026 Networking Night",
-      "summary": "Join us for a night of connection, conversation and community at the She Leads Networking Night at The Howling Moon on Thursday July 30, 2026.",
-      "description": "Join us for a night of connection, conversation and community at the She Leads Networking Night at The Howling Moon on Thursday July 30, 2026.",
-      "topics": [
-        "networking"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/she-leads-2026-networking-night",
-      "registration_url": "https://events.humanitix.com/she-leads-2026-networking-night",
-      "start_datetime": "2026-07-30T18:00:00+10:00",
-      "end_datetime": "2026-07-30T20:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "The Howling Moon",
-        "address": "150 Northbourne Ave, Braddon ACT 2612, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "She Leads 2026 Networking Night",
-        "description": "Join us for a night of connection, conversation and community at the She Leads Networking Night at The Howling Moon on Thursday July 30, 2026.\n\nJoin us for a night of connection, conversation and community at the She Leads Networking Night at The Howling Moon on Thursday July 30, 2026.\n\nhttps://events.humanitix.com/she-leads-2026-networking-night",
-        "location": "The Howling Moon, 150 Northbourne Ave, Braddon ACT 2612, Australia",
-        "start": "2026-07-30T18:00:00+10:00",
-        "end": "2026-07-30T20:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/she-leads-2026-networking-night"
-      },
-      "notification_payload": {
-        "title": "She Leads 2026 Networking Night",
-        "message": "She Leads 2026 Networking Night is scheduled for Thu 30 Jul 2026 06:00 PM at The Howling Moon.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "a6fcb4a1-c6fc-4c7f-9589-44a6cec16a17",
       "title": "AI Buildathon Series 151",
       "summary": "A high-energy build session for ANU students exploring applied AI products. Hosted by ANU AI Society, this ANU-focused event covers AI, hackathon, machine learning. The session runs on Friday 31 July 2026 at 09...",
@@ -11547,44 +10125,6 @@
       "notification_payload": {
         "title": "Scholarship and Visa Q&A Series 466",
         "message": "Scholarship and Visa Q&A Series 466 is scheduled for Fri 31 Jul 2026 09:00 AM at Hedley Bull Theatre.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "0550fc15-5bc5-4c4a-bdf2-40da8dff818e",
-      "title": "The Iconic Legends Show",
-      "summary": "Step into a world of timeless hits and unforgettable performances with this class act.",
-      "description": "Step into a world of timeless hits and unforgettable performances with this class act.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/the-iconic-legends-show",
-      "registration_url": "https://events.humanitix.com/the-iconic-legends-show",
-      "start_datetime": "2026-07-31T19:30:00+10:00",
-      "end_datetime": "2026-07-31T22:30:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Olympus Room, Hellenic Club Woden",
-        "address": "1 Matilda St, Phillip ACT 2606, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "The Iconic Legends Show",
-        "description": "Step into a world of timeless hits and unforgettable performances with this class act.\n\nStep into a world of timeless hits and unforgettable performances with this class act.\n\nhttps://events.humanitix.com/the-iconic-legends-show",
-        "location": "Olympus Room, Hellenic Club Woden, 1 Matilda St, Phillip ACT 2606, Australia",
-        "start": "2026-07-31T19:30:00+10:00",
-        "end": "2026-07-31T22:30:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/the-iconic-legends-show"
-      },
-      "notification_payload": {
-        "title": "The Iconic Legends Show",
-        "message": "The Iconic Legends Show is scheduled for Fri 31 Jul 2026 07:30 PM at Olympus Room, Hellenic Club Woden.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -11803,44 +10343,6 @@
       "notification_payload": {
         "title": "ML Career Workshop Series 362",
         "message": "ML Career Workshop Series 362 is scheduled for Sun 02 Aug 2026 11:00 AM at Hedley Bull Theatre.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "06df2ebe-6b2c-40a6-bf07-bc988827eb62",
-      "title": "Sitkovetsky Trio",
-      "summary": "Buy Tickets on Humanitix - Sitkovetsky Trio hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 2nd August 2026. Find event information.",
-      "description": "Buy Tickets on Humanitix - Sitkovetsky Trio hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 2nd August 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/sitkovetsky-trio",
-      "registration_url": "https://events.humanitix.com/sitkovetsky-trio",
-      "start_datetime": "2026-08-02T19:00:00+10:00",
-      "end_datetime": "2026-08-02T21:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Snow Concert Hall",
-        "address": "40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Sitkovetsky Trio",
-        "description": "Buy Tickets on Humanitix - Sitkovetsky Trio hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 2nd August 2026. Find event information.\n\nBuy Tickets on Humanitix - Sitkovetsky Trio hosted by Snow Concert Hall. Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia. Sunday 2nd August 2026. Find event information.\n\nhttps://events.humanitix.com/sitkovetsky-trio",
-        "location": "Snow Concert Hall, 40 Monaro Cres, Red Hill ACT 2603, Australia",
-        "start": "2026-08-02T19:00:00+10:00",
-        "end": "2026-08-02T21:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/sitkovetsky-trio"
-      },
-      "notification_payload": {
-        "title": "Sitkovetsky Trio",
-        "message": "Sitkovetsky Trio is scheduled for Sun 02 Aug 2026 07:00 PM at Snow Concert Hall.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -14498,44 +13000,6 @@
       }
     },
     {
-      "id": "c782f380-822c-4baf-b0fc-2db18cf1f738",
-      "title": "WIC Breakfast Series 2026 - 27 August",
-      "summary": "Get tickets on Humanitix - WIC Breakfast Series 2026 - 27 August hosted by Women in ICT. The Marion, Act Parks Depot, Barrine Dr, Parkes ACT 2600, Australia. Thursday 27th August 2026. Find event information.",
-      "description": "Get tickets on Humanitix - WIC Breakfast Series 2026 - 27 August hosted by Women in ICT. The Marion, Act Parks Depot, Barrine Dr, Parkes ACT 2600, Australia. Thursday 27th August 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/wic-breakfast-series-2026-27-august",
-      "registration_url": "https://events.humanitix.com/wic-breakfast-series-2026-27-august",
-      "start_datetime": "2026-08-27T07:30:00+10:00",
-      "end_datetime": "2026-08-27T09:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "The Marion",
-        "address": "Act Parks Depot, Barrine Dr, Parkes ACT 2600, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "WIC Breakfast Series 2026 - 27 August",
-        "description": "Get tickets on Humanitix - WIC Breakfast Series 2026 - 27 August hosted by Women in ICT. The Marion, Act Parks Depot, Barrine Dr, Parkes ACT 2600, Australia. Thursday 27th August 2026. Find event information.\n\nGet tickets on Humanitix - WIC Breakfast Series 2026 - 27 August hosted by Women in ICT. The Marion, Act Parks Depot, Barrine Dr, Parkes ACT 2600, Australia. Thursday 27th August 2026. Find event information.\n\nhttps://events.humanitix.com/wic-breakfast-series-2026-27-august",
-        "location": "The Marion, Act Parks Depot, Barrine Dr, Parkes ACT 2600, Australia",
-        "start": "2026-08-27T07:30:00+10:00",
-        "end": "2026-08-27T09:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/wic-breakfast-series-2026-27-august"
-      },
-      "notification_payload": {
-        "title": "WIC Breakfast Series 2026 - 27 August",
-        "message": "WIC Breakfast Series 2026 - 27 August is scheduled for Thu 27 Aug 2026 07:30 AM at The Marion.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "63bd3454-8fa0-473a-b2a0-7efffbe01884",
       "title": "AI Research Showcase Series 060",
       "summary": "A showcase of student and faculty projects spanning AI methods, research translation, and demos. Hosted by ANU Health, Safety and Wellbeing, this ANU-focused event covers AI, research, seminar. The session runs...",
@@ -16293,44 +14757,6 @@
       }
     },
     {
-      "id": "f79af290-7563-4b03-9c3d-7c22a39631f8",
-      "title": "Rock Rhapsody - The Queen Show",
-      "summary": "Get tickets on Humanitix - Rock Rhapsody - The Queen Show hosted by Harmonie German Club Canberra Inc. Harmonie German Club, 49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia. Friday 11th September 2026. Find even...",
-      "description": "Get tickets on Humanitix - Rock Rhapsody - The Queen Show hosted by Harmonie German Club Canberra Inc. Harmonie German Club, 49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia. Friday 11th September 2026. Find event information.",
-      "topics": [],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/rock-rhapsody-the-queen-show",
-      "registration_url": "https://events.humanitix.com/rock-rhapsody-the-queen-show",
-      "start_datetime": "2026-09-11T19:00:00+10:00",
-      "end_datetime": "2026-09-11T23:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Harmonie German Club",
-        "address": "49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia",
-        "mode": "unknown"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Rock Rhapsody - The Queen Show",
-        "description": "Get tickets on Humanitix - Rock Rhapsody - The Queen Show hosted by Harmonie German Club Canberra Inc. Harmonie German Club, 49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia. Friday 11th September 2026. Find even...\n\nGet tickets on Humanitix - Rock Rhapsody - The Queen Show hosted by Harmonie German Club Canberra Inc. Harmonie German Club, 49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia. Friday 11th September 2026. Find event information.\n\nhttps://events.humanitix.com/rock-rhapsody-the-queen-show",
-        "location": "Harmonie German Club, 49 Jerrabomberra Ave, Narrabundah ACT 2604, Australia",
-        "start": "2026-09-11T19:00:00+10:00",
-        "end": "2026-09-11T23:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/rock-rhapsody-the-queen-show"
-      },
-      "notification_payload": {
-        "title": "Rock Rhapsody - The Queen Show",
-        "message": "Rock Rhapsody - The Queen Show is scheduled for Fri 11 Sep 2026 07:00 PM at Harmonie German Club.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
       "id": "a49ac1a3-02e6-4693-881f-07f988bf7f0e",
       "title": "Assignment Survival Workshop Series 068",
       "summary": "A student support workshop focused on assignment planning, writing structure, and study systems. Hosted by ANU International Student Department, this ANU-focused event covers assignment, study support, academic...",
@@ -17423,46 +15849,6 @@
       "notification_payload": {
         "title": "ML Career Workshop Series 492",
         "message": "ML Career Workshop Series 492 is scheduled for Mon 21 Sep 2026 11:00 AM at Hancock Library Seminar Room.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "97f3fd54-cc24-4bcb-a92b-0d59f84fd0a4",
-      "title": "Hybrid event",
-      "summary": "Get Tickets on Humanitix - Hybrid event hosted by Your host profile. Albert Hall, 100 Commonwealth Ave, Yarralumla ACT 2601, Australia. Tuesday 22nd September 2026. Find event information.",
-      "description": "Get Tickets on Humanitix - Hybrid event hosted by Your host profile. Albert Hall, 100 Commonwealth Ave, Yarralumla ACT 2601, Australia. Tuesday 22nd September 2026. Find event information.",
-      "topics": [
-        "machine learning"
-      ],
-      "source": "Humanitix",
-      "source_url": "https://events.humanitix.com/hybrid-event",
-      "registration_url": "https://events.humanitix.com/hybrid-event",
-      "start_datetime": "2026-09-22T18:00:00+10:00",
-      "end_datetime": "2026-09-22T22:00:00+10:00",
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": "Albert Hall",
-        "address": "100 Commonwealth Ave, Yarralumla ACT 2601, Australia",
-        "mode": "physical"
-      },
-      "organizer": null,
-      "status": "active",
-      "calendar_payload": {
-        "title": "Hybrid event",
-        "description": "Get Tickets on Humanitix - Hybrid event hosted by Your host profile. Albert Hall, 100 Commonwealth Ave, Yarralumla ACT 2601, Australia. Tuesday 22nd September 2026. Find event information.\n\nGet Tickets on Humanitix - Hybrid event hosted by Your host profile. Albert Hall, 100 Commonwealth Ave, Yarralumla ACT 2601, Australia. Tuesday 22nd September 2026. Find event information.\n\nhttps://events.humanitix.com/hybrid-event",
-        "location": "Albert Hall, 100 Commonwealth Ave, Yarralumla ACT 2601, Australia",
-        "start": "2026-09-22T18:00:00+10:00",
-        "end": "2026-09-22T22:00:00+10:00",
-        "timezone": "Australia/Sydney",
-        "url": "https://events.humanitix.com/hybrid-event"
-      },
-      "notification_payload": {
-        "title": "Hybrid event",
-        "message": "Hybrid event is scheduled for Tue 22 Sep 2026 06:00 PM at Albert Hall.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",
@@ -24553,130 +22939,6 @@
       "notification_payload": {
         "title": "Wellbeing Reset Session Series 315",
         "message": "Wellbeing Reset Session Series 315 is scheduled for Thu 26 Nov 2026 06:00 PM at Kambri Innovation Hub.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "cdc1ba83-ff73-45f0-a467-251704e364c6",
-      "title": "Best events in Canberra",
-      "summary": "Canberra, Australia Events, Calendar & Tickets | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Creat...",
-      "description": "Canberra, Australia Events, Calendar & Tickets | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions Solutions Event Ticketing Event Marketing Platform Eventbrite Ads Payments Industry Industry Music Food & Beverage Performing Arts Charity & Causes Retail Event Types Event Types Concerts Classes & Workshops Festivals & Fairs Conferences Corporate Events Online...",
-      "topics": [
-        "AI",
-        "workshop"
-      ],
-      "source": "Eventbrite",
-      "source_url": "https://www.eventbrite.com.au/d/australia--canberra/events/",
-      "registration_url": "https://www.eventbrite.com.au/d/australia--canberra/events/",
-      "start_datetime": null,
-      "end_datetime": null,
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": null,
-        "address": null,
-        "mode": "online"
-      },
-      "organizer": null,
-      "status": "unknown",
-      "calendar_payload": {
-        "title": "Best events in Canberra",
-        "description": "Canberra, Australia Events, Calendar & Tickets | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Creat...\n\nCanberra, Australia Events, Calendar & Tickets | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions Solutions Event Ticketing Event Marketing Platform Eventbrite Ads Payments Industry Industry Music Food & Beverage Performing Arts Charity & Causes Retail Event Types Event Types Concerts Classes & Workshops Festivals & Fairs Conferences Corporate Events Online...\n\nhttps://www.eventbrite.com.au/d/australia--canberra/events/",
-        "location": "Online",
-        "start": null,
-        "end": null,
-        "timezone": "Australia/Sydney",
-        "url": "https://www.eventbrite.com.au/d/australia--canberra/events/"
-      },
-      "notification_payload": {
-        "title": "Best events in Canberra",
-        "message": "Best events in Canberra is scheduled for time TBC at Online.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "623323b8-b8bc-4c98-a011-5bd648802024",
-      "title": "Free Events and Things to do in Canberra, Australia",
-      "summary": "Free Canberra, Australia Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Soluti...",
-      "description": "Free Canberra, Australia Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions Solutions Event Ticketing Event Marketing Platform Eventbrite Ads Payments Industry Industry Music Food & Beverage Performing Arts Charity & Causes Retail Event Types Event Types Concerts Classes & Workshops Festivals & Fairs Conferences Corporate Events Online Events Blog Bl...",
-      "topics": [
-        "AI",
-        "workshop"
-      ],
-      "source": "Eventbrite",
-      "source_url": "https://www.eventbrite.com.au/d/australia--canberra/free--events/",
-      "registration_url": "https://www.eventbrite.com.au/d/australia--canberra/free--events/",
-      "start_datetime": null,
-      "end_datetime": null,
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": null,
-        "address": null,
-        "mode": "online"
-      },
-      "organizer": null,
-      "status": "unknown",
-      "calendar_payload": {
-        "title": "Free Events and Things to do in Canberra, Australia",
-        "description": "Free Canberra, Australia Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Soluti...\n\nFree Canberra, Australia Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions Solutions Event Ticketing Event Marketing Platform Eventbrite Ads Payments Industry Industry Music Food & Beverage Performing Arts Charity & Causes Retail Event Types Event Types Concerts Classes & Workshops Festivals & Fairs Conferences Corporate Events Online Events Blog Bl...\n\nhttps://www.eventbrite.com.au/d/australia--canberra/free--events/",
-        "location": "Online",
-        "start": null,
-        "end": null,
-        "timezone": "Australia/Sydney",
-        "url": "https://www.eventbrite.com.au/d/australia--canberra/free--events/"
-      },
-      "notification_payload": {
-        "title": "Free Events and Things to do in Canberra, Australia",
-        "message": "Free Events and Things to do in Canberra, Australia is scheduled for time TBC at Online.",
-        "priority": "normal",
-        "suggested_reminders": [
-          "24_hours_before",
-          "2_hours_before"
-        ]
-      }
-    },
-    {
-      "id": "8cf48f2a-8de3-400d-8d6d-3a7735771d37",
-      "title": "Networking Events in Canberra",
-      "summary": "Canberra Networking Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions S...",
-      "description": "Canberra Networking Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions Solutions Event Ticketing Event Marketing Platform Eventbrite Ads Payments Industry Industry Music Food & Beverage Performing Arts Charity & Causes Retail Event Types Event Types Concerts Classes & Workshops Festivals & Fairs Conferences Corporate Events Online Events Blog Blog Ti...",
-      "topics": [
-        "AI",
-        "workshop",
-        "networking"
-      ],
-      "source": "Eventbrite",
-      "source_url": "https://www.eventbrite.com.au/d/australia--canberra/networking/",
-      "registration_url": "https://www.eventbrite.com.au/d/australia--canberra/networking/",
-      "start_datetime": null,
-      "end_datetime": null,
-      "timezone": "Australia/Sydney",
-      "venue": {
-        "name": null,
-        "address": null,
-        "mode": "online"
-      },
-      "organizer": null,
-      "status": "unknown",
-      "calendar_payload": {
-        "title": "Networking Events in Canberra",
-        "description": "Canberra Networking Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions S...\n\nCanberra Networking Events | Eventbrite Your version of Internet Explorer is no longer supported. Please upgrade your browser . Eventbrite Eventbrite Find my ticket Log In Sign Up Find Events Create Events Solutions Solutions Event Ticketing Event Marketing Platform Eventbrite Ads Payments Industry Industry Music Food & Beverage Performing Arts Charity & Causes Retail Event Types Event Types Concerts Classes & Workshops Festivals & Fairs Conferences Corporate Events Online Events Blog Blog Ti...\n\nhttps://www.eventbrite.com.au/d/australia--canberra/networking/",
-        "location": "Online",
-        "start": null,
-        "end": null,
-        "timezone": "Australia/Sydney",
-        "url": "https://www.eventbrite.com.au/d/australia--canberra/networking/"
-      },
-      "notification_payload": {
-        "title": "Networking Events in Canberra",
-        "message": "Networking Events in Canberra is scheduled for time TBC at Online.",
         "priority": "normal",
         "suggested_reminders": [
           "24_hours_before",

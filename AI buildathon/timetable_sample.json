@@ -1,0 +1,58 @@
+{
+  "student_id": "u7654321",
+  "name": "Alex Demo",
+  "course": "Bachelor of Computing",
+  "semester": "Semester 1, 2026",
+  "classes": [
+    {
+      "code": "COMP1100",
+      "name": "Introduction to Programming",
+      "type": "Lecture",
+      "day": "Monday",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "location": "Manning Clark Centre Theatre 1",
+      "weeks": "1-12"
+    },
+    {
+      "code": "COMP1100",
+      "name": "Introduction to Programming",
+      "type": "Lab",
+      "day": "Wednesday",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "location": "RSCS Lab N101",
+      "weeks": "2-12"
+    },
+    {
+      "code": "MATH1013",
+      "name": "Mathematics and Applications 1",
+      "type": "Lecture",
+      "day": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "location": "Hanna Neumann Building 145",
+      "weeks": "1-12"
+    },
+    {
+      "code": "MATH1013",
+      "name": "Mathematics and Applications 1",
+      "type": "Tutorial",
+      "day": "Thursday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "location": "Hanna Neumann Building 1.42",
+      "weeks": "2-12"
+    },
+    {
+      "code": "PSYC1003",
+      "name": "Psychology for the 21st Century",
+      "type": "Lecture",
+      "day": "Friday",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "location": "Coombs Lecture Theatre",
+      "weeks": "1-12"
+    }
+  ]
+}
